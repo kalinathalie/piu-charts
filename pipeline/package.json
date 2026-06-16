@@ -8,6 +8,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit",
     "build:dataset": "tsx src/build/buildDataset.ts",
+    "build:appdata": "tsx src/build/buildAppData.ts",
     "spike:order": "tsx scripts/spike-order.ts"
   },
   "dependencies": {
