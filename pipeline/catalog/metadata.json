@@ -872,6 +872,117 @@
       }
     ]
   },
+  "tream_vook_of_the_war_remix": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "banya_classic_remix": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "banya_hiphop_remix": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 6,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "final_audition_3": {
     "artist": "BanYa",
     "charts": [
@@ -1628,6 +1739,83 @@
       {
         "mode": "Double",
         "level": 9,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "love_is_a_danger_zone": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 3,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 6,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
         "types": [],
         "typesSource": "auto"
       }
@@ -2563,6 +2751,29 @@
       }
     ]
   },
+  "extra_banya_remix": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "pump_jump": {
     "artist": "BanYa",
     "charts": [
@@ -3305,7 +3516,7 @@
       }
     ]
   },
-  "an_intersting_view": {
+  "an_interesting_view": {
     "artist": "BanYa",
     "charts": [
       {
@@ -3345,7 +3556,7 @@
       }
     ]
   },
-  "close_your_eye": {
+  "close_your_eyes": {
     "artist": "BanYa",
     "charts": [
       {
@@ -3608,6 +3819,29 @@
       }
     ]
   },
+  "repeatorment_remix": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "blaze_emotion": {
     "artist": "YAHPP",
     "charts": [
@@ -3732,7 +3966,7 @@
       }
     ]
   },
-  "chopstick_challange": {
+  "chopsticks_challenge": {
     "artist": "YAHPP",
     "charts": [
       {
@@ -3761,7 +3995,7 @@
       }
     ]
   },
-  "the_people_didnt_know": {
+  "the_people_didn_t_know": {
     "artist": "Banya Production",
     "charts": [
       {
@@ -3925,7 +4159,7 @@
       }
     ]
   },
-  "final_audition_ep_2x": {
+  "final_audition_ep_2_x": {
     "artist": "YAHPP",
     "charts": [
       {
@@ -3972,7 +4206,7 @@
       }
     ]
   },
-  "the_people_didnt_know_pumping_up": {
+  "the_people_didn_t_know_pumping_up": {
     "artist": "Banya Production",
     "charts": [
       {
@@ -3995,7 +4229,7 @@
       }
     ]
   },
-  "ugly_duck_toccada": {
+  "ugly_duck_toccata": {
     "artist": "Banya Production",
     "charts": [
       {
@@ -4569,6 +4803,23 @@
       {
         "mode": "Double",
         "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "banya_p_guitar_remix": {
+    "artist": "Banya Production",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
         "types": [],
         "typesSource": "auto"
       }
@@ -5211,6 +5462,41 @@
       {
         "mode": "Double",
         "level": 26,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "banya_p_classic_mix_remix": {
+    "artist": "Banya",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
         "types": [],
         "typesSource": "auto"
       }
@@ -6843,7 +7129,7 @@
       }
     ]
   },
-  "jonathans_dream": {
+  "jonathan_s_dream": {
     "artist": "MAX & Seorryang (SID-SOUND)",
     "charts": [
       {
@@ -7541,6 +7827,35 @@
       }
     ]
   },
+  "b_p_classic_remix": {
+    "artist": "Banya Production",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "papa_helloizing": {
     "artist": "Banya Production",
     "charts": [
@@ -7603,24 +7918,7 @@
       }
     ]
   },
-  "final_audition_2_short_cut_2": {
-    "artist": "Banya",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "final_audition_ep_2x_short_cut": {
+  "final_audition_ep_2_x_short_cut": {
     "artist": "YAHPP",
     "charts": [
       {
@@ -9766,7 +10064,7 @@
       }
     ]
   },
-  "sillouette_effect": {
+  "silhouette_effect": {
     "artist": "Nato",
     "charts": [
       {
@@ -10601,7 +10899,7 @@
       }
     ]
   },
-  "blace_emotion_band_version": {
+  "blaze_emotion_band_version": {
     "artist": "Yahpp",
     "charts": [
       {
@@ -10636,7 +10934,7 @@
       }
     ]
   },
-  "sugar_conspirancy_theory": {
+  "sugar_conspiracy_theory": {
     "artist": "MAX",
     "charts": [
       {
@@ -10748,7 +11046,7 @@
       }
     ]
   },
-  "annihilator_mothod": {
+  "annihilator_method": {
     "artist": "DM Ashura",
     "charts": [
       {
@@ -11533,7 +11831,7 @@
       }
     ]
   },
-  "sillhouette_effect_short_cut": {
+  "silhouette_effect_short_cut": {
     "artist": "Nato",
     "charts": [
       {
@@ -12588,6 +12886,53 @@
       }
     ]
   },
+  "bad_apple_feat_nomico": {
+    "artist": "Masayoshi Minoshima",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "prime": {
     "artist": "Tatsh",
     "charts": [
@@ -12706,7 +13051,7 @@
       }
     ]
   },
-  "just_hold_on_to_all_fighers": {
+  "just_hold_on_to_all_fighters": {
     "artist": "void",
     "charts": [
       {
@@ -12760,6 +13105,47 @@
       {
         "mode": "Double",
         "level": 25,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "bad_apple_feat_nomico_full_song": {
+    "artist": "Masayoshi Minoshima",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
         "types": [],
         "typesSource": "auto"
       }
@@ -13112,6 +13498,112 @@
       }
     ]
   },
+  "cross_over_feat_lyuu": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "god_mode_feat_skizzo": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 5,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 9,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "shub_niggurath": {
     "artist": "Nato",
     "charts": [
@@ -13259,6 +13751,59 @@
       }
     ]
   },
+  "silver_beat_feat_chisauezono": {
+    "artist": "Tatsh",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "bring_back_the_beat": {
     "artist": "LunaticSounds",
     "charts": [
@@ -13354,65 +13899,6 @@
       {
         "mode": "Double",
         "level": 23,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "overblow_2": {
-    "artist": "MAX",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 4,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 19,
         "types": [],
         "typesSource": "auto"
       }
@@ -13694,6 +14180,59 @@
       }
     ]
   },
+  "twist_of_fate_feat_ruriling": {
+    "artist": "Jehezukiel",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "http": {
     "artist": "Quree",
     "charts": [
@@ -13859,7 +14398,7 @@
       }
     ]
   },
-  "rave_til_the_earth_end": {
+  "rave_til_the_earth_s_end": {
     "artist": "5argon",
     "charts": [
       {
@@ -14215,7 +14754,7 @@
       }
     ]
   },
-  "kasau_shinja_short_cut": {
+  "kasou_shinja_short_cut": {
     "artist": "MAX",
     "charts": [
       {
@@ -14591,6 +15130,53 @@
       {
         "mode": "Double",
         "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "the_festival_of_ghost_2_sneak": {
+    "artist": "Brandy",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
         "types": [],
         "typesSource": "auto"
       }
@@ -15320,7 +15906,7 @@
       }
     ]
   },
-  "gothique_ressonance": {
+  "gothique_resonance": {
     "artist": "P4Koo",
     "charts": [
       {
@@ -16049,7 +16635,7 @@
       }
     ]
   },
-  "wedding_crashes": {
+  "wedding_crashers": {
     "artist": "SHK",
     "charts": [
       {
@@ -16397,7 +16983,7 @@
       }
     ]
   },
-  "distric_1": {
+  "district_1": {
     "artist": "MAX",
     "charts": [
       {
@@ -16780,7 +17366,7 @@
       }
     ]
   },
-  "lolite_sky": {
+  "iolite_sky": {
     "artist": "Doin",
     "charts": [
       {
@@ -16898,7 +17484,7 @@
       }
     ]
   },
-  "le_grande_rouge": {
+  "le_grand_rouge": {
     "artist": "KIEN",
     "charts": [
       {
@@ -17439,7 +18025,7 @@
       }
     ]
   },
-  "clemates_rapsodia": {
+  "clematis_rapsodia": {
     "artist": "Jehezukiel",
     "charts": [
       {
@@ -17492,7 +18078,7 @@
       }
     ]
   },
-  "witcked_legend": {
+  "wicked_legend": {
     "artist": "D_AAN",
     "charts": [
       {
@@ -17592,7 +18178,149 @@
       }
     ]
   },
-  "dires_of_destiny": {
+  "stardream_feat_romelon": {
+    "artist": "Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 1,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 3,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "papasito_feat_kutina": {
+    "artist": "Yakikaze & Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 6,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "fires_of_destiny": {
     "artist": "Jehezukiel",
     "charts": [
       {
@@ -17640,6 +18368,59 @@
       {
         "mode": "Double",
         "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "the_end_of_the_world_ft_skizzo": {
+    "artist": "MonstDeath",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
         "types": [],
         "typesSource": "auto"
       }
@@ -17946,6 +18727,47 @@
       }
     ]
   },
+  "papasito_feat_kutina_full_song": {
+    "artist": "Yakikaze & Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "desaparecer": {
     "artist": "Applessoda vs MAX",
     "charts": [
@@ -18045,7 +18867,7 @@
       }
     ]
   },
-  "fire_noodle_challange": {
+  "fire_noodle_challenge": {
     "artist": "Memme",
     "charts": [
       {
@@ -18199,23 +19021,6 @@
       {
         "mode": "Double",
         "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "xx_opening_short_cut": {
-    "artist": "YAHPP",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
         "types": [],
         "typesSource": "auto"
       }
@@ -18399,6 +19204,59 @@
       {
         "mode": "Double",
         "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "god_mode_2_0_feat_skizzo": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
         "types": [],
         "typesSource": "auto"
       }
@@ -18823,6 +19681,53 @@
       {
         "mode": "Double",
         "level": 24,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "broken_karma_piu_edit": {
+    "artist": "Quree",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
         "types": [],
         "typesSource": "auto"
       }
@@ -19329,7 +20234,7 @@
       }
     ]
   },
-  "allegron_con_fuoco_full_song": {
+  "allegro_con_fuoco_full_song": {
     "artist": "DM Ashura",
     "charts": [
       {
@@ -20429,1051 +21334,6 @@
       {
         "mode": "Double",
         "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "district_v": {
-    "artist": "MAX",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "tream_vook_of_the_war": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "banya_classic_remix": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "banya_hiphop_remix": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "love_is_a_danger": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 2,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 3,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 4,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "extra_banya_remix": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "repeatorment_remix": {
-    "artist": "BanYa",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "banya_p_guitar_remix": {
-    "artist": "Banya Production",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 24,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "banya_p_classic_remix": {
-    "artist": "Banya",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "b_p_classic_remix": {
-    "artist": "Banya Production",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "bad_apple": {
-    "artist": "Masayoshi Minoshima",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "bad_apple_full_song": {
-    "artist": "Masayoshi Minoshima",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "cross_over": {
-    "artist": "HyuN",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 23,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "god_mode": {
-    "artist": "Nato",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 5,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 9,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "silver_beat": {
-    "artist": "Tatsh",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 4,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 7,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "twist_of_fate": {
-    "artist": "Jehezukiel",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 4,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "the_festival_of_ghost_2": {
-    "artist": "Brandy",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "stardream": {
-    "artist": "Cashew",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 1,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 3,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "papasito": {
-    "artist": "Yakikaze & Cashew",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 6,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 15,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 11,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "the_end_of_the_world": {
-    "artist": "MonstDeath",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 3,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 5,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 17,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "papasito_full_song": {
-    "artist": "Yakikaze & Cashew",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 12,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 14,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 23,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "god_mode_2_0": {
-    "artist": "Nato",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 8,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 18,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 22,
-        "types": [],
-        "typesSource": "auto"
-      }
-    ]
-  },
-  "broken_karma": {
-    "artist": "Quree",
-    "charts": [
-      {
-        "mode": "Single",
-        "level": 10,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 16,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 19,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Single",
-        "level": 21,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 13,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 20,
-        "types": [],
-        "typesSource": "auto"
-      },
-      {
-        "mode": "Double",
-        "level": 23,
         "types": [],
         "typesSource": "auto"
       }
