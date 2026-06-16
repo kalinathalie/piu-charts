@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "PIU Charts",
+    "slug": "piu-charts",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "platforms": ["android", "web"],
+    "android": {
+      "package": "com.kalina.piucharts"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
