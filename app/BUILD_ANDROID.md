@@ -46,6 +46,27 @@ APK em `app/build/outputs/apk/release/app-release.apk`.
   adb install -r app/android/app/build/outputs/apk/release/app-release.apk
   ```
 
+## Problemas conhecidos
+
+### `JvmVendorSpec does not have member field 'IBM_SEMERU'`
+O `expo prebuild` gera o wrapper com **Gradle 9.3.1**, mas o React Native 0.85.3
+fixa **AGP 8.12.0 + Kotlin 2.1.20**, que são da era Gradle 8 e usam o campo
+`JvmVendorSpec.IBM_SEMERU` — campo que o **Gradle 9 removeu**. Resultado: o build
+quebra.
+
+**Correção** (já aplicada neste projeto): em
+`android/gradle/wrapper/gradle-wrapper.properties`, usar Gradle 8.x:
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip
+```
+⚠️ Se você rodar `npx expo prebuild` de novo, ele volta pra 9.3.1 — reaplique esta linha.
+
+### Gradle JDK
+O AGP 8.12 roda em **JDK 17** (não use o Java 24 do sistema). No Android Studio:
+**Settings → Build, Execution, Deployment → Build Tools → Gradle → Gradle JDK** →
+escolha o **JDK 17 embutido** (ex.: `jbr-17` / "Embedded JDK"). Depois
+**File → Sync Project with Gradle Files**.
+
 ## Observações
 - O `app-data.json` (todas as músicas/charts) é embutido no bundle JS → app 100% offline.
 - Ícone: usando o padrão do Expo. Pra um ícone próprio, coloque `assets/icon.png`
