@@ -1,4 +1,51 @@
 {
+  "1948": {
+    "artist": "Slam",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 26,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 27,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "1949": {
     "artist": "SLAM",
     "charts": [
@@ -22524,6 +22571,7080 @@
       {
         "mode": "Double",
         "level": 13,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "cygnus": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "brown_sky": {
+    "artist": "Doin",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "xx_opening_short_cut": {
+    "artist": "MAX",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "mopemope": {
+    "artist": "LeaF",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "cross_ray": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "ultimatum": {
+    "artist": "Cosmograph",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 25,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 27,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "do_or_die": {
+    "artist": "Xikers",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "crush": {
+    "artist": "Zerobaseone",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "discord": {
+    "artist": "Qwer",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "bubble": {
+    "artist": "Stayc",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "queencard": {
+    "artist": "(G)I-DLE",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "boca": {
+    "artist": "Dreamcatcher",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "nxde": {
+    "artist": "(G)I-DLE",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "teddy_bear": {
+    "artist": "Stayc",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "alone": {
+    "artist": "Highlight",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 1,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "amor_fati": {
+    "artist": "Yeon Ja Kim",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "after_like": {
+    "artist": "Ive",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 1,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "eleven": {
+    "artist": "Ive",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 5,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "pirate": {
+    "artist": "Everglow",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "tomboy": {
+    "artist": "(G)I-DLE",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "whisper": {
+    "artist": "The Boyz",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "spray": {
+    "artist": "WEi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "beautiful_liar": {
+    "artist": "Monsta X",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 9,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "airplane": {
+    "artist": "Typhoon",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 1,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 8,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "nostalgia": {
+    "artist": "Woody",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "teddy_bear_full_song": {
+    "artist": "Stayc",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "esp": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "highway_chaser": {
+    "artist": "Cosmograph",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "eternal_universe": {
+    "artist": "Quree",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "burn_out": {
+    "artist": "WyvernP",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "4nt": {
+    "artist": "Poda",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "ultimate_eyes": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "vector": {
+    "artist": "Zekk",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "versailles": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "the_apocalypse": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "showdown": {
+    "artist": "Litmus*",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "euphorianic": {
+    "artist": "SHK",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "jupin": {
+    "artist": "Sobrem",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "kugutsu": {
+    "artist": "Onoken",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 25,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 27,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "flavor_step": {
+    "artist": "EmoCosine",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "lucid_dream": {
+    "artist": "Cosmograph",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "see": {
+    "artist": "Doin",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "duel": {
+    "artist": "Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "lacrimosa": {
+    "artist": "Fiverwater",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 9,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "solfeggietto": {
+    "artist": "Fiverwater",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "murdoch": {
+    "artist": "Wondertraveler Project",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "little_munchkin": {
+    "artist": "Castellia",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "demon_of_laplace": {
+    "artist": "Quree",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "lohxia": {
+    "artist": "The Musical Ghost",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "prima_materia": {
+    "artist": "Xi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "imperium": {
+    "artist": "Sakuzyo",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "neo_catharsis": {
+    "artist": "TAG Underground Overlay",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 25,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 27,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "super_akuma_emperor": {
+    "artist": "REDALiCE",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "curiosity_overdrive": {
+    "artist": "T+Pazolite",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "sonic_boom": {
+    "artist": "Usao",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "megaheartz": {
+    "artist": "DJ Noriken",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "darkside_of_the_mind": {
+    "artist": "DJ Myosuke",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "solve_my_hurt": {
+    "artist": "Doin",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "glimmer_gleam": {
+    "artist": "Doin",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "sudden_appearance_image": {
+    "artist": "Blacklolita",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "deca_dance": {
+    "artist": "Yooh",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "new_rose": {
+    "artist": "Hommarju",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "hercules": {
+    "artist": "Abel",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "invasion": {
+    "artist": "D_AAN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "earendel": {
+    "artist": "Palami",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "murdoch_vs_otada": {
+    "artist": "Espitz",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "wither_garden": {
+    "artist": "Uma",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "imaginarized_city": {
+    "artist": "Reku Mochizuki",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "crimson_hood": {
+    "artist": "Springhead",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "doppelganger": {
+    "artist": "MonstDeath",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "district_v": {
+    "artist": "Zekk",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "phoenix_opening_short_cut": {
+    "artist": "MAX",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "jupin_short_cut": {
+    "artist": "Sobrem",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "ghroth_short_cut": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "neo_catharsis_short_cut": {
+    "artist": "TAG Underground Overlay",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Diesel",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "prima_materia_short_cut": {
+    "artist": "Xi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Refos",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "duel_short_cut": {
+    "artist": "Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "binary_star": {
+    "artist": "SynthWulf",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "about_the_universe": {
+    "artist": "Sotui",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Osing",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "perpetual": {
+    "artist": "Qu-ail",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Windforce",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "dancing": {
+    "artist": "Said",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "galaxy_collapse": {
+    "artist": "Kurokotei",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "fracture_temporelle": {
+    "artist": "Kurokotei",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "BME",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "catastrophe": {
+    "artist": "Rareguy",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "nade_nade": {
+    "artist": "Doin",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "goodtek": {
+    "artist": "Ebimayo",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "energy_synergy_matrix": {
+    "artist": "Tanchiky",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "milk": {
+    "artist": "Morimori Atsushi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "altale": {
+    "artist": "Sakuzyo",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 6,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "irellia": {
+    "artist": "HyuN",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "goodbounce": {
+    "artist": "Ebimayo",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "emomomo": {
+    "artist": "Ras",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "pupa": {
+    "artist": "Morimori Atsushi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "stager": {
+    "artist": "Ras",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "this_game_does_not_exist": {
+    "artist": "Litmus*",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "mahika": {
+    "artist": "The Musical Ghost",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "giselle": {
+    "artist": "Sobrem a.k.a. Widowmaker",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "aragami": {
+    "artist": "Xi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "halcyon": {
+    "artist": "Xi",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "destr0yer": {
+    "artist": "Sakuzyo",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "big_daddy": {
+    "artist": "Usao",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "flvsh_out": {
+    "artist": "Getty",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "odin": {
+    "artist": "Gram",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "because_of_you": {
+    "artist": "Srav3R",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "chobit_flavor": {
+    "artist": "Aran",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "alive": {
+    "artist": "REDALiCE",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "trickl4sh_220": {
+    "artist": "Lite Show Magic",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "horang_pungryuga": {
+    "artist": "Sangnoksu",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "heliosphere": {
+    "artist": "BlackY",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "sweet_wonderland": {
+    "artist": "MAX",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
         "types": [],
         "typesSource": "auto"
       }
