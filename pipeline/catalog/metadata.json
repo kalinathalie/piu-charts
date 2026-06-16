@@ -819,6 +819,39 @@
       }
     ]
   },
+  "try_to_bpm_love_is_a_danger_zone": {
+    "artist": "BanYa",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "love_is_a_danger_zone_pt_2_another": {
     "artist": "BanYa",
     "charts": [
@@ -4598,6 +4631,67 @@
       {
         "mode": "Double",
         "level": 22,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "k_o_a_alice_in_wonderworld": {
+    "artist": "BanYa Production",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 2,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "BPM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 9,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 10,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Windforce",
         "types": [],
         "typesSource": "auto"
       }
@@ -8920,6 +9014,32 @@
       {
         "mode": "Double",
         "level": 17,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "k_o_a_alice_in_wonderworld_short_cut": {
+    "artist": "BanYa Production",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Andamiro",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Andamiro",
         "types": [],
         "typesSource": "auto"
       }
@@ -24658,6 +24778,81 @@
       }
     ]
   },
+  "festival_of_the_death_moon": {
+    "artist": "SHK",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Aevilux",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Aevilux",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Aevilux",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Aevilux",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Aevilux",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 11,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 15,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "esp": {
     "artist": "Nato",
     "charts": [
@@ -25038,6 +25233,67 @@
       }
     ]
   },
+  "nyan_turne_feat_kutina": {
+    "artist": "Cashew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "vector": {
     "artist": "Zekk",
     "charts": [
@@ -25378,6 +25634,74 @@
       }
     ]
   },
+  "halloween_party_multiverse": {
+    "artist": "SHK",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "jupin": {
     "artist": "Sobrem",
     "charts": [
@@ -25426,6 +25750,74 @@
       {
         "mode": "Double",
         "level": 18,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "ghroth": {
+    "artist": "Nato",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
         "stepmaker": "DulKi",
         "types": [],
         "typesSource": "auto"
@@ -25732,6 +26124,74 @@
         "mode": "Double",
         "level": 25,
         "stepmaker": "EXC",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "stardream_eurobeat_remix": {
+    "artist": "MAX",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
         "types": [],
         "typesSource": "auto"
       }
@@ -26145,6 +26605,74 @@
       }
     ]
   },
+  "simon_says_eurodance_feat_sara_m": {
+    "artist": "Jehezukiel",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "barber_s_madness": {
     "artist": "Klass E",
     "charts": [
@@ -26260,6 +26788,60 @@
       }
     ]
   },
+  "le_nozze_di_figaro_celebrazione_remix": {
+    "artist": "Sr. Lan Belmont",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 9,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Spham",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "demon_of_laplace": {
     "artist": "Quree",
     "charts": [
@@ -26309,6 +26891,81 @@
         "mode": "Double",
         "level": 23,
         "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "bluish_rose": {
+    "artist": "WyvernP",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 3,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 5,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 8,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Sunny",
         "types": [],
         "typesSource": "auto"
       }
@@ -28003,6 +28660,53 @@
       }
     ]
   },
+  "euphorianic_short_cut": {
+    "artist": "SHK",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "phoenix_opening_short_cut": {
     "artist": "MAX",
     "charts": [
@@ -28254,6 +28958,46 @@
         "mode": "Double",
         "level": 24,
         "stepmaker": "GGWang",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "halloween_party_multiverse_short_cut": {
+    "artist": "SHK",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "stepmaker": "Junare",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "stepmaker": "Junare",
         "types": [],
         "typesSource": "auto"
       }
@@ -29289,6 +30033,74 @@
         "mode": "Double",
         "level": 22,
         "stepmaker": "Fefemz",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "acquire": {
+    "artist": "Ryhki",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
         "types": [],
         "typesSource": "auto"
       }
@@ -30563,6 +31375,74 @@
       }
     ]
   },
+  "break_through_myself_feat_risa_yuzuki": {
+    "artist": "DJ Myosuke",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "stepmaker": "Conrad",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "viyella_s_nightmare": {
     "artist": "Laur",
     "charts": [
@@ -30854,6 +31734,60 @@
       }
     ]
   },
+  "extreme_music_school_2nd_period_feat_nanahira": {
+    "artist": "Massive New Krew",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 16,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "stepmaker": "Nimgo",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "battle_no_1": {
     "artist": "Tano*C Sound Team",
     "charts": [
@@ -30910,6 +31844,74 @@
         "mode": "Double",
         "level": 24,
         "stepmaker": "DulKi",
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "soldiers_tano_c_w_team_red_anthem": {
+    "artist": "DJ Noriken",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 4,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 6,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 11,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "stepmaker": "Sunny",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "stepmaker": "Sunny",
         "types": [],
         "typesSource": "auto"
       }

@@ -197,9 +197,14 @@ async function main() {
   process.stderr.write(`songs needing charts: ${toFill.length}\n`);
 
   const catalog = await enumerateCatalog();
-  // index: base -> variant -> Row
+  // full-name index (no variant strip): catches titles set to the exact site name,
+  // regardless of how the variant is decorated ("(Short Cut)", "-Short Cut-", "~..~").
+  const fullIndex = new Map<string, Row>();
+  // base+variant index: catches normal titles + the variant fallback.
   const index = new Map<string, Map<Variant, Row>>();
   for (const row of catalog) {
+    const fn = normalizeBase(row.name);
+    if (!fullIndex.has(fn)) fullIndex.set(fn, row);
     const { base, variant } = ppVariant(row.name);
     let byV = index.get(base);
     if (!byV) index.set(base, (byV = new Map()));
@@ -210,14 +215,20 @@ async function main() {
   interface Pre {
     ord: number;
     title: string;
-    key: string;
     variant: Variant;
     row: Row;
+    full: boolean;
     how: "exact" | "fuzzy";
     score: number;
   }
   const pre: Pre[] = [];
   for (const { s, i } of toFill) {
+    const fn = normalizeBase(s.title);
+    const fullRow = fullIndex.get(fn);
+    if (fullRow) {
+      pre.push({ ord: i, title: s.title, variant: "STANDARD", row: fullRow, full: true, how: "exact", score: 1 });
+      continue;
+    }
     const { base, variant } = splitVariant(s.title);
     let key = index.has(base) ? base : "";
     let how: "exact" | "fuzzy" = "exact";
@@ -242,16 +253,15 @@ async function main() {
     const byV = index.get(key)!;
     const row = byV.get(variant) ?? (variant === "STANDARD" ? byV.values().next().value : undefined);
     if (!row) continue;
-    pre.push({ ord: i, title: s.title, key, variant, row, how, score });
+    pre.push({ ord: i, title: s.title, variant, row, full: false, how, score });
   }
-  // collision guard on (key + variant): keep the highest-confidence claimant
+  // collision guard: each catalog row claimed by only the highest-confidence song
   const best = new Map<string, Pre>();
   for (const p of pre) {
-    const g = `${p.key} ${p.variant}`;
-    const cur = best.get(g);
-    if (!cur || p.score > cur.score) best.set(g, p);
+    const cur = best.get(p.row.id);
+    if (!cur || p.score > cur.score) best.set(p.row.id, p);
   }
-  const winners = pre.filter((p) => best.get(`${p.key} ${p.variant}`) === p);
+  const winners = pre.filter((p) => best.get(p.row.id) === p);
 
   // fetch charts; keep order-indexed results
   const result = new Map<number, { title: string; charts: PpChart[]; artist: string }>();
@@ -265,7 +275,7 @@ async function main() {
     }
     await sleep(80);
     if (charts.length === 0) continue;
-    const newTitle = canonicalTitle(p.row.name, p.variant);
+    const newTitle = p.full ? p.row.name : canonicalTitle(p.row.name, p.variant);
     result.set(p.ord, { title: newTitle, charts, artist: p.row.artist });
     if (newTitle !== p.title) renames.push(`${p.title}  ->  ${newTitle}${p.how === "fuzzy" ? `  (fuzzy ${p.score.toFixed(2)})` : ""}`);
   }
