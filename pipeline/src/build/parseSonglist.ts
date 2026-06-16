@@ -15,6 +15,7 @@ const HEADER_SEQUENCE: { header: string; version: Version }[] = [
   { header: "PRIME", version: "Prime" },
   { header: "PRIME2", version: "Prime2" },
   { header: "XX", version: "XX" },
+  { header: "PHOENIX", version: "Phoenix" },
 ];
 
 function norm(line: string): string {
