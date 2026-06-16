@@ -11,6 +11,8 @@
     "build:appdata": "tsx src/build/buildAppData.ts",
     "ingest:piucenter": "tsx scripts/ingest-piucenter.ts",
     "ingest:pumpproplus": "tsx scripts/ingest-pumpproplus.ts",
+    "ingest:namu": "tsx scripts/ingest-namu.ts",
+    "ingest:manual": "tsx scripts/apply-manual-charts.ts",
     "canonicalize:titles": "tsx scripts/canonicalize-titles.ts",
     "report:unmatched": "tsx scripts/unmatched-report.ts",
     "spike:order": "tsx scripts/spike-order.ts"

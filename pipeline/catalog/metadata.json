@@ -32120,5 +32120,526 @@
         "typesSource": "auto"
       }
     ]
+  },
+  "doof_senc": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ],
+    "artist": "Kobaryo",
+    "bpmMin": 200,
+    "bpmMax": 200
+  },
+  "spooky_macaron": {
+    "artist": "Sobrem",
+    "bpmMin": 201,
+    "bpmMax": 201,
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 14,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "murdoch_vs_otada_short_cut": {
+    "artist": "ESPITZ vs WONDERTRAVELER Project",
+    "bpmMin": 180,
+    "bpmMax": 180,
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 20,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "solve_my_hurt_short_cut": {
+    "artist": "Doin",
+    "bpmMin": 234,
+    "bpmMax": 234,
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "banya_p_classic_2": {
+    "artist": "Banya Production",
+    "bpmMin": 180,
+    "bpmMax": 180,
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 13,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "friend": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 17,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 25,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "boom": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 10,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 12,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "dead_end": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 23,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 25,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 26,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 28,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "eon": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 7,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "alice_in_misanthrope": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 17,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 20,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 13,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 18,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
+  },
+  "rip": {
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 12,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 16,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 19,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Single",
+        "level": 22,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 21,
+        "types": [],
+        "typesSource": "manual"
+      },
+      {
+        "mode": "Double",
+        "level": 24,
+        "types": [],
+        "typesSource": "manual"
+      }
+    ]
   }
 }
