@@ -4,3 +4,6 @@ node_modules/
 
 # tesseract.js language data downloaded at runtime
 *.traineddata
+
+# downloaded ingestion caches (regenerable via npm run ingest:*)
+.cache/
