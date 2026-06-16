@@ -1,0 +1,16 @@
+{
+  "songs": [
+    { "id": "bee", "title": "BEE", "artist": "BanYa", "bpmMin": 165, "bpmMax": 165, "debutVersion": "Prime" },
+    { "id": "overdive", "title": "Overdive", "artist": "SHK", "bpmMin": 150, "bpmMax": 150, "debutVersion": "Prime" },
+    { "id": "take_out", "title": "Take Out", "artist": "SHK", "bpmMin": 145, "bpmMax": 145, "debutVersion": "Prime" },
+    { "id": "night_duty", "title": "Night Duty", "artist": "SHK", "bpmMin": 160, "bpmMax": 160, "debutVersion": "Prime" },
+    { "id": "pine_nut", "title": "Pine Nut", "artist": "SHK", "bpmMin": 142, "bpmMax": 142, "debutVersion": "Prime" },
+    { "id": "love_danger_2", "title": "Love is a Danger Zone pt.2", "artist": "BanYa", "bpmMin": 200, "bpmMax": 200, "debutVersion": "Prime" }
+  ],
+  "charts": [
+    { "id": "bee_s16", "songId": "bee", "mode": "Single", "level": 16, "stepmaker": "BanYa", "types": ["DRILL"] },
+    { "id": "overdive_s16", "songId": "overdive", "mode": "Single", "level": 16, "stepmaker": "SHK", "types": ["RUN"] },
+    { "id": "love2_s16", "songId": "love_danger_2", "mode": "Single", "level": 16, "stepmaker": "AOA", "types": ["DRILL"] },
+    { "id": "love2_d20", "songId": "love_danger_2", "mode": "Double", "level": 20, "stepmaker": "AOA", "types": ["RUN"] }
+  ]
+}
