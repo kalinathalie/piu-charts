@@ -1,0 +1,6 @@
+.claude/
+node_modules/
+*.log
+
+# tesseract.js language data downloaded at runtime
+*.traineddata
