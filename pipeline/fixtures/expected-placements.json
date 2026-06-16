@@ -1,0 +1,17 @@
+{
+  "bee_s16": [
+    { "categoryId": "LEVEL:Single:16", "position": 1, "total": 3 },
+    { "categoryId": "VERSION:Prime", "position": 1, "total": 3 },
+    { "categoryId": "ALL", "position": 1, "total": 4 }
+  ],
+  "love2_s16": [
+    { "categoryId": "LEVEL:Single:16", "position": 3, "total": 3 },
+    { "categoryId": "VERSION:Prime", "position": 3, "total": 3 },
+    { "categoryId": "ALL", "position": 3, "total": 4 }
+  ],
+  "love2_d20": [
+    { "categoryId": "LEVEL:Double:20", "position": 1, "total": 1 },
+    { "categoryId": "VERSION:Prime", "position": 3, "total": 3 },
+    { "categoryId": "ALL", "position": 4, "total": 4 }
+  ]
+}

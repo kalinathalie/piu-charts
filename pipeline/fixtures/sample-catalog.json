@@ -1,0 +1,13 @@
+{
+  "songs": [
+    { "id": "love_danger_2", "title": "Love is a Danger Zone pt.2", "titleNormalized": "love is a danger zone pt 2", "artist": "BanYa", "bpmMin": 200, "bpmMax": 200, "debutVersion": "Prime", "releaseIndex": 0 },
+    { "id": "overdive", "title": "Overdive", "titleNormalized": "overdive", "artist": "SHK", "bpmMin": 150, "bpmMax": 150, "debutVersion": "Prime", "releaseIndex": 0 },
+    { "id": "bee", "title": "BEE", "titleNormalized": "bee", "artist": "BanYa", "bpmMin": 165, "bpmMax": 165, "debutVersion": "Prime", "releaseIndex": 0 }
+  ],
+  "charts": [
+    { "id": "love2_s16", "songId": "love_danger_2", "mode": "Single", "level": 16, "stepmaker": "AOA", "types": ["DRILL"], "typesSource": "manual" },
+    { "id": "love2_d20", "songId": "love_danger_2", "mode": "Double", "level": 20, "stepmaker": "AOA", "types": ["RUN"], "typesSource": "manual" },
+    { "id": "overdive_s16", "songId": "overdive", "mode": "Single", "level": 16, "stepmaker": "SHK", "types": ["RUN"], "typesSource": "manual" },
+    { "id": "bee_s16", "songId": "bee", "mode": "Single", "level": 16, "stepmaker": "BanYa", "types": ["DRILL"], "typesSource": "manual" }
+  ]
+}
