@@ -8549,6 +8549,23 @@
       }
     ]
   },
+  "final_audition_3_short_cut": {
+    "artist": "Banya",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 16,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
   "final_audition_ep_2_x_short_cut": {
     "artist": "YAHPP",
     "charts": [
@@ -14707,6 +14724,53 @@
       {
         "mode": "Double",
         "level": 23,
+        "types": [],
+        "typesSource": "auto"
+      }
+    ]
+  },
+  "overblow2": {
+    "artist": "Max",
+    "charts": [
+      {
+        "mode": "Single",
+        "level": 5,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 9,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 15,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Single",
+        "level": 18,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 7,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 14,
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "Double",
+        "level": 19,
         "types": [],
         "typesSource": "auto"
       }
