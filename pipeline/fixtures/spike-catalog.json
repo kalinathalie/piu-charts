@@ -1,0 +1,9 @@
+{
+  "songs": [
+    { "id": "take_out", "title": "Take Out", "titleNormalized": "take out", "artist": "SHK", "bpmMin": 145, "bpmMax": 145, "debutVersion": "Prime", "releaseIndex": 0 },
+    { "id": "overblow", "title": "Overblow", "titleNormalized": "overblow", "artist": "SHK", "bpmMin": 175, "bpmMax": 175, "debutVersion": "Prime", "releaseIndex": 0 },
+    { "id": "night_duty", "title": "Night Duty", "titleNormalized": "night duty", "artist": "SHORTCUT", "bpmMin": 160, "bpmMax": 160, "debutVersion": "Prime", "releaseIndex": 0 },
+    { "id": "pine_nut", "title": "Pine Nut", "titleNormalized": "pine nut", "artist": "SHK", "bpmMin": 142, "bpmMax": 142, "debutVersion": "Prime", "releaseIndex": 0 }
+  ],
+  "charts": []
+}
