@@ -1,6 +1,6 @@
 import type { Song } from "../model/types";
 import { normalizeTitle } from "../text/normalize";
-import { bestMatch, type Candidate } from "../text/fuzzy";
+import { bestMatch, type Candidate, type MatchResult } from "../text/fuzzy";
 
 export interface OcrFrame {
   timestamp: number;
@@ -22,6 +22,21 @@ function buildCandidates(songs: Song[]): Candidate[] {
   return out;
 }
 
+/**
+ * Best match for a single noisy OCR frame. The frame text is split into lines
+ * (the song title sits on its own line amid on-screen junk), each line is
+ * normalized and matched, and the highest-scoring line wins.
+ */
+function matchFrame(text: string, candidates: Candidate[], threshold: number): MatchResult | null {
+  const lines = text.split(/\r?\n/).map(normalizeTitle).filter(Boolean);
+  let best: MatchResult | null = null;
+  for (const q of lines) {
+    const m = bestMatch(q, candidates, threshold);
+    if (m && (!best || m.score > best.score)) best = m;
+  }
+  return best;
+}
+
 export function extractOrderFromOcr(
   frames: OcrFrame[],
   songs: Song[],
@@ -33,9 +48,7 @@ export function extractOrderFromOcr(
   let lastId: string | null = null;
 
   for (const f of frames) {
-    const q = normalizeTitle(f.text);
-    if (!q) continue;
-    const m = bestMatch(q, candidates, threshold);
+    const m = matchFrame(f.text, candidates, threshold);
     if (!m) continue;
     if (m.id === lastId) continue; // consecutive duplicate
     lastId = m.id;

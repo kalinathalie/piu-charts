@@ -27,6 +27,14 @@ describe("extractOrderFromOcr", () => {
     expect(order[0].firstSeen).toBeCloseTo(0.5, 2);
   });
 
+  it("matches a title buried in a noisy multi-line frame", () => {
+    const frames: OcrFrame[] = [
+      { timestamp: 5, text: "EVENT 50000\nsome junk line\nOverdive - SHORT CUT\n037/105\n@@@@0000" },
+    ];
+    const order = extractOrderFromOcr(frames, songs, 0.6);
+    expect(order.map((o) => o.songId)).toEqual(["s1"]);
+  });
+
   it("does not re-add a song that reappears after others", () => {
     const frames: OcrFrame[] = [
       { timestamp: 0, text: "Overdive" },
