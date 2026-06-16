@@ -1,38 +1,53 @@
-# Catálogo (editável à mão)
+# Catálogo (mantido à mão)
 
-Esta pasta é a **fonte de dados** do app, mantida manualmente. Edite os dois arquivos e
-rode o build para gerar o dataset que o app consome.
-
-> Os dados que já vêm aqui são **exemplos** demonstrando o formato (algumas músicas de
-> Prime). Substitua/complete com o catálogo real do Phoenix.
+Fonte de dados do app. Edite os dois arquivos e rode o build para gerar o dataset.
 
 ## Arquivos
 
-### `songs.json`
-Objeto com `songs[]` e `charts[]`.
+### `songlist.txt` — a ordem e o conjunto de músicas
+Lista de músicas, **uma por linha, na ordem de lançamento** (a posição na lista é o que
+determina a numeração no arcade). Linhas com os cabeçalhos de seção definem a versão:
 
-**Song** (campos):
-- `id` *(obrigatório)* — identificador único, em minúsculas com `_` (ex.: `love_danger_2`).
-- `title` *(obrigatório)* — nome da música. O `titleNormalized` (para busca) é derivado automaticamente.
-- `titleKr` *(opcional)* — título em coreano (ajuda no casamento por OCR dos vídeos).
-- `artist`, `bpmMin`, `bpmMax` — metadados. Se `bpmMax` faltar, vira igual a `bpmMin`.
-- `debutVersion` — uma de: `1st, Zero, NX, NXA, Fiesta, Fiesta2, Prime, Prime2, XX, Phoenix`.
+```
+1ST TO ZERO
+NX to NXA
+FIESTA TO FIESTA2
+PRIME
+PRIME2
+XX
+```
 
-**Chart** (campos):
-- `id` *(obrigatório)* — único (ex.: `love2_d20`).
-- `songId` *(obrigatório)* — precisa referenciar um `song.id` existente.
-- `mode` — `Single | Double | CoOp | SinglePerf | DoublePerf` (padrão `Single`).
-- `level` — número da dificuldade (ex.: `16`, `20`).
-- `stepmaker` — quem fez o chart.
-- `types` — lista de: `DRILL, RUN, TWIST, GIMMICK, HALF, JUMP, STAIR, BRACKET` (padrão `[]`).
-- `typesSource` — `auto | manual | mixed` (padrão `manual`).
+- Tudo que não for um desses cabeçalhos (e não for linha em branco) é uma música.
+- O `id` de cada música é gerado a partir do título (minúsculas, `_`); títulos repetidos
+  ganham sufixo `_2`, `_3`…
+- Eras combinadas (ex.: "1ST TO ZERO") são aproximadas para a versão final do bloco
+  (Zero, NXA, Fiesta2). Dá pra refinar por música no `metadata.json`.
+- **Phoenix ainda não está aqui** (o vídeo-fonte ia só até XX). Adicione um cabeçalho
+  `PHOENIX`/as músicas novas quando quiser — ou mantenha manual.
 
-### `order.json`
-Array com os `song.id` na **ordem de lançamento** (a posição na lista é o índice aqui).
-Música que não estiver nesse array recebe `releaseIndex = 0` e o build avisa.
+### `metadata.json` — metadados opcionais por música
+Objeto keyed pelo `id` da música. Tudo é opcional; preencha aos poucos.
 
-> Dica: dá para gerar um rascunho desse `order.json` a partir dos vídeos oficiais com
-> `npx tsx scripts/spike-order.ts` (ver `scripts/SPIKE.md`), e depois ajustar à mão.
+```json
+{
+  "gargoyle": {
+    "artist": "SHK",
+    "bpmMin": 128,
+    "bpmMax": 128,
+    "titleKr": "가고일",
+    "debutVersion": "Fiesta2",
+    "charts": [
+      { "mode": "Single", "level": 16, "stepmaker": "...", "types": ["DRILL"] },
+      { "mode": "Double", "level": 20, "stepmaker": "...", "types": ["RUN", "TWIST"] }
+    ]
+  }
+}
+```
+
+- `debutVersion` aqui **sobrescreve** a era deduzida do `songlist.txt`.
+- `charts[]`: `mode` (`Single|Double|CoOp|SinglePerf|DoublePerf`, padrão `Single`),
+  `level` (obrigatório), `stepmaker`, `types` (DRILL/RUN/TWIST/GIMMICK/HALF/JUMP/STAIR/BRACKET),
+  `typesSource` (`auto|manual|mixed`, padrão `manual`). O `id` do chart é gerado se omitido.
 
 ## Gerar o dataset
 
@@ -41,5 +56,5 @@ cd pipeline
 npm run build:dataset
 ```
 
-Isso valida o catálogo, aplica a ordem e escreve `data/dataset.json` (a numeração
-posição/total é **calculada** pelo app a partir do `releaseIndex` — não fica gravada).
+Valida, atribui `releaseIndex` pela posição na lista e escreve `data/dataset.json`. A
+numeração posição/total é **calculada** pelo app a partir do `releaseIndex` (não é gravada).
