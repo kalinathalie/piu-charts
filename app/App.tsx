@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import {
   BackHandler,
   FlatList,
+  Image,
   Pressable,
   ScrollView,
   StatusBar,
@@ -13,8 +14,17 @@ import {
 import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
 import rawData from "./assets/app-data.json";
 import { normalizeQuery, type AppData, type AppSong } from "./src/appData";
+import { THUMBS } from "./src/thumbs";
 
 const data = rawData as AppData;
+
+/** Cover thumbnail for a song, or a neutral placeholder when none is bundled. */
+function Thumb({ id, size, radius }: { id: string; size: number; radius: number }) {
+  const src = THUMBS[id];
+  const style = { width: size, height: size, borderRadius: radius };
+  if (src) return <Image source={src} style={style} resizeMode="cover" />;
+  return <View style={[style, styles.thumbPlaceholder]} />;
+}
 
 export default function App() {
   return (
@@ -92,7 +102,8 @@ function Main() {
             contentContainerStyle={{ paddingBottom: 12 }}
             renderItem={({ item }) => (
               <Pressable style={styles.row} onPress={() => setSelected(item)}>
-                <View style={styles.flex}>
+                <Thumb id={item.id} size={48} radius={8} />
+                <View style={[styles.flex, styles.rowText]}>
                   <Text style={styles.rowTitle}>{item.title}</Text>
                   <Text style={styles.rowMeta}>
                     {item.debutVersion}
@@ -126,12 +137,17 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
         <Text style={styles.backText}>‹ Voltar</Text>
       </Pressable>
 
-      <Text style={styles.title}>{song.title}</Text>
-      <Text style={styles.meta}>
-        {song.debutVersion}
-        {song.artist ? ` · ${song.artist}` : ""}
-        {bpm ? ` · ${bpm}` : ""}
-      </Text>
+      <View style={styles.detailHead}>
+        <Thumb id={song.id} size={96} radius={14} />
+        <View style={styles.detailHeadText}>
+          <Text style={styles.title}>{song.title}</Text>
+          <Text style={styles.metaHead}>
+            {song.debutVersion}
+            {song.artist ? ` · ${song.artist}` : ""}
+            {bpm ? ` · ${bpm}` : ""}
+          </Text>
+        </View>
+      </View>
 
       <Text style={styles.section}>Onde achar no arcade</Text>
       <View style={styles.card}>
@@ -219,15 +235,20 @@ const styles = StyleSheet.create({
     borderBottomWidth: StyleSheet.hairlineWidth,
     borderBottomColor: "#22242f",
   },
+  rowText: { marginLeft: 12 },
   rowTitle: { color: "#fff", fontSize: 16, fontWeight: "600" },
   rowMeta: { color: "#8b90a0", fontSize: 13, marginTop: 2 },
   badge: { color: "#5a6cff", fontSize: 13, fontWeight: "700" },
   empty: { color: "#7a7f8c", textAlign: "center", marginTop: 40 },
+  thumbPlaceholder: { backgroundColor: "#22242f" },
 
   detail: { padding: 16, paddingBottom: 32 },
   back: { paddingVertical: 8 },
   backText: { color: "#5a6cff", fontSize: 16, fontWeight: "600" },
-  title: { color: "#fff", fontSize: 26, fontWeight: "800", marginTop: 4 },
+  detailHead: { flexDirection: "row", alignItems: "center", marginTop: 6, marginBottom: 18 },
+  detailHeadText: { flex: 1, marginLeft: 14 },
+  title: { color: "#fff", fontSize: 22, fontWeight: "800" },
+  metaHead: { color: "#8b90a0", fontSize: 14, marginTop: 4 },
   meta: { color: "#8b90a0", fontSize: 14, marginTop: 4, marginBottom: 16 },
   section: { color: "#fff", fontSize: 16, fontWeight: "700", marginBottom: 8 },
   card: { backgroundColor: "#1b1d27", borderRadius: 12, paddingHorizontal: 14, marginBottom: 16 },
