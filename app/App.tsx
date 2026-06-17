@@ -33,15 +33,25 @@ interface FlatChart {
 // ---- derived datasets (computed once) ----
 const allCharts: FlatChart[] = data.songs.flatMap((s) => s.charts.map((chart) => ({ song: s, chart })));
 
+// Special editions (Remix / Short Cut / Full Song) are kept out of the by-difficulty
+// views — they have their own menu section — but stay searchable and in their version.
+const stdCharts: FlatChart[] = allCharts.filter((fc) => !fc.song.variant);
+
 const chartsByModeLevel: Record<string, FlatChart[]> = {};
-for (const fc of allCharts) (chartsByModeLevel[`${fc.chart.mode}|${fc.chart.level}`] ??= []).push(fc);
+for (const fc of stdCharts) (chartsByModeLevel[`${fc.chart.mode}|${fc.chart.level}`] ??= []).push(fc);
 
 const levelsByMode: Record<string, number[]> = {};
 {
   const sets: Record<string, Set<number>> = {};
-  for (const fc of allCharts) (sets[fc.chart.mode] ??= new Set()).add(fc.chart.level);
+  for (const fc of stdCharts) (sets[fc.chart.mode] ??= new Set()).add(fc.chart.level);
   for (const m of Object.keys(sets)) levelsByMode[m] = [...sets[m]].sort((a, b) => a - b);
 }
+
+const VARIANT_ORDER = ["REMIX", "SHORTCUT", "FULLSONG"] as const;
+const VARIANT_LABEL: Record<string, string> = { REMIX: "Remix", SHORTCUT: "Short Cut", FULLSONG: "Full Song" };
+const songsByVariant: Record<string, AppSong[]> = { REMIX: [], SHORTCUT: [], FULLSONG: [] };
+for (const s of data.songs) if (s.variant) songsByVariant[s.variant].push(s);
+const variantsPresent = VARIANT_ORDER.filter((v) => songsByVariant[v].length);
 
 const versionsPresent = VERSION_ORDER.filter((v) => data.songs.some((s) => s.debutVersion === v));
 const songsByVersion: Record<string, AppSong[]> = {};
@@ -74,6 +84,8 @@ type Screen =
   | { k: "versionSongs"; version: string }
   | { k: "stepmakers" }
   | { k: "stepmakerCharts"; maker: string }
+  | { k: "variants" }
+  | { k: "variantSongs"; variant: string }
   | { k: "song"; id: string };
 
 export default function App() {
@@ -147,6 +159,10 @@ function screenTitle(s: Screen): string {
       return "Por stepmaker";
     case "stepmakerCharts":
       return s.maker;
+    case "variants":
+      return "Edições especiais";
+    case "variantSongs":
+      return VARIANT_LABEL[s.variant] ?? s.variant;
     default:
       return "";
   }
@@ -191,6 +207,10 @@ function Body({
       return <Stepmakers push={push} bottom={bottom} />;
     case "stepmakerCharts":
       return <ChartList items={chartsByStepmaker[screen.maker] ?? []} push={push} bottom={bottom} showLabel />;
+    case "variants":
+      return <VariantModes push={push} />;
+    case "variantSongs":
+      return <SongList songs={songsByVariant[screen.variant] ?? []} push={push} bottom={bottom} />;
     case "song": {
       const song = songById.get(screen.id);
       return song ? <Detail song={song} bottom={bottom} /> : null;
@@ -207,6 +227,7 @@ function Home({ onNavigate, bottom }: { onNavigate: (s: Screen) => void; bottom:
     { screen: { k: "diffModes" }, icon: "🎚️", label: "Por dificuldade", sub: "Single · Double · Co-Op", accent: "#9e3340" },
     { screen: { k: "versions" }, icon: "🕹️", label: "Por versão", sub: "XX, Prime, Fiesta…", accent: "#247a4a" },
     { screen: { k: "stepmakers" }, icon: "👤", label: "Por stepmaker", sub: "Ordenado por nº de charts", accent: "#9a7d1f" },
+    { screen: { k: "variants" }, icon: "💿", label: "Edições especiais", sub: "Remix · Short Cut · Full Song", accent: "#7a4fd0" },
   ];
   return (
     <ScrollView contentContainerStyle={[styles.homePad, { paddingBottom: bottom + 24 }]}>
@@ -296,6 +317,23 @@ function DiffLevels({ mode, push, bottom }: { mode: string; push: (s: Screen) =>
           </Pressable>
         );
       })}
+    </ScrollView>
+  );
+}
+
+// ---------- Special editions ----------
+function VariantModes({ push }: { push: (s: Screen) => void }) {
+  return (
+    <ScrollView contentContainerStyle={styles.pad}>
+      {variantsPresent.map((v) => (
+        <Pressable key={v} style={[styles.bigBtn, styles.rowVariant]} onPress={() => push({ k: "variantSongs", variant: v })}>
+          <Text style={styles.bigBtnText}>{VARIANT_LABEL[v]}</Text>
+          <View style={styles.bigBtnRight}>
+            <Text style={styles.bigBtnCount}>{songsByVariant[v].length}</Text>
+            <Text style={styles.bigBtnChevron}>›</Text>
+          </View>
+        </Pressable>
+      ))}
     </ScrollView>
   );
 }
@@ -575,6 +613,8 @@ const styles = StyleSheet.create({
   },
   bigBtnText: { color: "#fff", fontSize: 20, fontWeight: "800" },
   bigBtnChevron: { color: "rgba(255,255,255,0.8)", fontSize: 24, fontWeight: "700" },
+  bigBtnRight: { flexDirection: "row", alignItems: "center", gap: 12 },
+  bigBtnCount: { color: "rgba(255,255,255,0.8)", fontSize: 15, fontWeight: "700" },
 
   // level chips
   chipWrap: { flexDirection: "row", flexWrap: "wrap", gap: 10 },
@@ -589,6 +629,7 @@ const styles = StyleSheet.create({
   rowSingle: { backgroundColor: "#9e3340" },
   rowDouble: { backgroundColor: "#247a4a" },
   rowCoop: { backgroundColor: "#9a7d1f" },
+  rowVariant: { backgroundColor: "#5d4b9e" },
 
   // detail
   detail: { padding: 16 },

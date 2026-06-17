@@ -5,9 +5,13 @@ export function deriveCategories(ds: Dataset): Category[] {
   const songById = new Map(ds.songs.map((s) => [s.id, s]));
   const cats: Category[] = [];
 
-  // LEVEL categories per (mode, level)
+  // LEVEL categories per (mode, level). Special editions (Remix / Short Cut /
+  // Full Song) are excluded so they don't pollute the arcade-style ranking.
   const levelKeys = new Set<string>();
-  for (const c of ds.charts) levelKeys.add(`${c.mode}:${c.level}`);
+  for (const c of ds.charts) {
+    if (songById.get(c.songId)?.variant) continue;
+    levelKeys.add(`${c.mode}:${c.level}`);
+  }
   for (const key of [...levelKeys]) {
     const [mode, lvl] = key.split(":");
     const m = mode as Mode;
@@ -17,7 +21,7 @@ export function deriveCategories(ds: Dataset): Category[] {
       name: `Nível ${modeLabel(m)}${level}`,
       kind: "LEVEL",
       unit: "CHART",
-      includesChart: (ch) => ch.mode === m && ch.level === level,
+      includesChart: (ch) => ch.mode === m && ch.level === level && !songById.get(ch.songId)?.variant,
     });
   }
 

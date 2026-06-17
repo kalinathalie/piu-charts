@@ -8,6 +8,9 @@ export type Version =
   | "1st" | "Zero" | "NX" | "NXA"
   | "Fiesta" | "Fiesta2" | "Prime" | "Prime2" | "XX" | "Phoenix";
 
+/** Special editions kept out of the per-level ranking and shown separately. */
+export type SongVariant = "REMIX" | "SHORTCUT" | "FULLSONG";
+
 export interface Song {
   id: string;
   title: string;
@@ -19,6 +22,8 @@ export interface Song {
   debutVersion: Version;
   /** Global release ordinal (1-based). Assigned by the order pipeline. */
   releaseIndex: number;
+  /** Set when the title marks a Remix / Short Cut / Full Song edition. */
+  variant?: SongVariant;
 }
 
 export interface Chart {

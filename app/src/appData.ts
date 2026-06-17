@@ -27,6 +27,7 @@ export interface AppSong {
   bpmMax: number;
   debutVersion: string;
   releaseIndex: number;
+  variant?: "REMIX" | "SHORTCUT" | "FULLSONG";
   placements: AppPlacement[];
   charts: AppChart[];
 }

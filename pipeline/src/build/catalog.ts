@@ -2,6 +2,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { parseSonglist } from "./parseSonglist";
 import { normalizeTitle } from "../text/normalize";
+import { classifyVariant } from "./variant";
 import type { Dataset, Song, Chart, Version } from "../model/types";
 
 export interface ChartMeta {
@@ -45,6 +46,7 @@ export function buildDatasetFromCatalog(root: string): Dataset {
       bpmMax: m.bpmMax ?? m.bpmMin ?? 0,
       debutVersion: m.debutVersion ?? p.debutVersion,
       releaseIndex: i + 1,
+      variant: classifyVariant(p.title),
     };
   });
 

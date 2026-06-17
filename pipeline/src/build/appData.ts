@@ -30,6 +30,8 @@ export interface AppSong {
   bpmMax: number;
   debutVersion: string;
   releaseIndex: number;
+  /** "REMIX" | "SHORTCUT" | "FULLSONG" for special editions; omitted otherwise. */
+  variant?: string;
   /** Song-level placements (all songs, by version). */
   placements: AppPlacement[];
   charts: AppChart[];
@@ -104,6 +106,7 @@ export function toAppData(ds: Dataset): AppData {
       bpmMax: s.bpmMax,
       debutVersion: s.debutVersion,
       releaseIndex: s.releaseIndex,
+      variant: s.variant,
       placements,
       charts,
     };
