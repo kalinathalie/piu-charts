@@ -59,10 +59,15 @@ function buildBaseIndex(): Map<string, BaseSong> {
   const bySong = new Map<number, BaseSong>();
   const chartSeen = new Map<number, Set<string>>();
 
+  const MODE: Record<string, "Single" | "Double" | "CoOp"> = {
+    S: "Single",
+    D: "Double",
+    C: "CoOp",
+  };
   for (const r of rows) {
-    const m = /^([SD])(\d+)$/.exec(r.difficulty?.trim() ?? "");
-    if (!m) continue; // skip Co-Op (C…) and anything non S/D
-    const mode = m[1] === "S" ? "Single" : "Double";
+    const m = /^([SDC])(\d+)$/.exec(r.difficulty?.trim() ?? "");
+    if (!m) continue;
+    const mode = MODE[m[1]];
     const level = Number(m[2]);
     const youtubeUrl = r.youtubeUrl3rd || r.youtubeUrl || undefined;
 
@@ -95,8 +100,11 @@ function buildBaseIndex(): Map<string, BaseSong> {
   // index by normalized English title
   const index = new Map<string, BaseSong>();
   for (const song of bySong.values()) {
+    const order: Record<string, number> = { Single: 0, Double: 1, CoOp: 2 };
     song.charts.sort((a, b) =>
-      a.mode === b.mode ? a.level - b.level : a.mode === "Single" ? -1 : 1,
+      a.mode === b.mode
+        ? a.level - b.level
+        : (order[a.mode ?? "Single"] ?? 9) - (order[b.mode ?? "Single"] ?? 9),
     );
     const key = matchKey(song.title);
     if (!index.has(key)) index.set(key, song);

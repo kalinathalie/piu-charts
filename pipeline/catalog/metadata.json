@@ -371,6 +371,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=OwpO-gz0apE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=V2SgFwAX7TQ",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 132,
@@ -440,6 +448,14 @@
         "level": 21,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=gK9UgKx0RRI",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=T_iswqppDeM",
         "types": [],
         "typesSource": "auto"
       }
@@ -969,6 +985,13 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=zJ8Wm0UYjug",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "youtubeUrl": "https://www.youtube.com/watch?v=o3bFp-t-wPI",
+        "types": [],
+        "typesSource": "auto"
       }
     ]
   },
@@ -1217,6 +1240,14 @@
         "level": 23,
         "stepmaker": "KANG2",
         "youtubeUrl": "https://www.youtube.com/watch?v=sP-blON_Lyg",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=zGVQJbEic7c",
         "types": [],
         "typesSource": "auto"
       }
@@ -2243,6 +2274,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=rgZKHutbte0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=a04kWRAJTbM",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 150,
@@ -2359,6 +2398,14 @@
         "level": 21,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=Z3Yx6joqaQk",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=vR3uxsCNBHM",
         "types": [],
         "typesSource": "auto"
       }
@@ -2736,6 +2783,14 @@
         "level": 21,
         "stepmaker": "KANG2",
         "youtubeUrl": "https://www.youtube.com/watch?v=LnjDld0jyXk",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=MVaS88VE8og",
         "types": [],
         "typesSource": "auto"
       }
@@ -3123,6 +3178,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=tfVw6KD0ApE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=P7VR-hJ_Bg4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 122,
@@ -3271,6 +3334,14 @@
         "level": 22,
         "stepmaker": "NEXXPOKE",
         "youtubeUrl": "https://www.youtube.com/watch?v=5Z_ufeqQArI",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=AdwPYV4W1nA",
         "types": [],
         "typesSource": "auto"
       }
@@ -3664,6 +3735,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=LHQ9VvaNVeI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=D5mzTg2n1K0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 142,
@@ -3829,6 +3908,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=o9F2-eGGlZ4",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nSjJdU0EjnI",
+        "types": [],
+        "typesSource": "auto"
       }
     ]
   },
@@ -3856,6 +3943,14 @@
         "level": 11,
         "stepmaker": "ANDAMIRO",
         "youtubeUrl": "https://www.youtube.com/watch?v=1CZt_IOEe2w",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=y-dJJPS7kZA",
         "types": [],
         "typesSource": "auto"
       }
@@ -4312,6 +4407,14 @@
         "level": 21,
         "stepmaker": "KANG2",
         "youtubeUrl": "https://www.youtube.com/watch?v=hWeCJ3WBWN0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "MIURAARAN",
+        "youtubeUrl": "https://www.youtube.com/watch?v=_BU8da1JN4I",
         "types": [],
         "typesSource": "auto"
       }
@@ -4986,6 +5089,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=StbssP7a-uE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=CGSO6vKnGu0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 134,
@@ -5507,6 +5618,14 @@
         "level": 18,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=hxbQAQYt4Co",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=gY13-q8AWEY",
         "types": [],
         "typesSource": "auto"
       }
@@ -6326,6 +6445,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=_HMiXl-kvd8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "ANDAMIRO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=SVhFMrnWVCs",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 210,
@@ -6967,6 +7094,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=eOyc2WEkMkU",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "HP",
+        "youtubeUrl": "https://www.youtube.com/watch?v=VaYL7IINRy4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 162,
@@ -7036,6 +7171,14 @@
         "level": 25,
         "stepmaker": "ANDAMIRO",
         "youtubeUrl": "https://www.youtube.com/watch?v=p1ujOQOG1jY",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "ANDAMIRO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=JucAVUo4Cs0",
         "types": [],
         "typesSource": "auto"
       }
@@ -7115,6 +7258,14 @@
         "level": 23,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=SaCbuU0T7fU",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "HP",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Vp1mXimKlbU",
         "types": [],
         "typesSource": "auto"
       }
@@ -7241,6 +7392,14 @@
         "level": 24,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=Fngu40HU0oA",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SANDSTORM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=QBQsdvIaUzQ",
         "types": [],
         "typesSource": "auto"
       }
@@ -7574,6 +7733,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=90ZgMIq1nj8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=m2F2cSehuEQ",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 40,
@@ -7700,6 +7867,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=u0sTy2SucnM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "WINDFORCE",
+        "youtubeUrl": "https://www.youtube.com/watch?v=XSPBWwA_n38",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 246,
@@ -7760,6 +7935,14 @@
         "level": 17,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=_EgYo1yQQo4",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=l2-aL-WZKXk",
         "types": [],
         "typesSource": "auto"
       }
@@ -7884,6 +8067,14 @@
         "level": 24,
         "stepmaker": "ENVYTIC",
         "youtubeUrl": "https://www.youtube.com/watch?v=n9pNqFHuEnM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 4,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=u8YHxU8DG94",
         "types": [],
         "typesSource": "auto"
       }
@@ -8269,6 +8460,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=DI52tVN6LsQ",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TvboZLBr42w",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 170,
@@ -8411,6 +8610,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=YOco1E3RoNw",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "HP",
+        "youtubeUrl": "https://www.youtube.com/watch?v=GKkW_bsED9g",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 155,
@@ -8464,6 +8671,14 @@
         "level": 18,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=G0LSl4KFe-0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=fb95QjDYjEI",
         "types": [],
         "typesSource": "auto"
       }
@@ -8598,6 +8813,14 @@
         "level": 20,
         "stepmaker": "BPM",
         "youtubeUrl": "https://www.youtube.com/watch?v=Rg4h05dFXXw",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=DXgxy7-eEhw",
         "types": [],
         "typesSource": "auto"
       }
@@ -9291,6 +9514,14 @@
         "level": 24,
         "stepmaker": "KANG2",
         "youtubeUrl": "https://www.youtube.com/watch?v=CwdXmZ2D7-o",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=VrNgBTq7KwI",
         "types": [],
         "typesSource": "auto"
       }
@@ -10715,6 +10946,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=9wDzi94wMYo",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BPM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=axmID_Nh6rc",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 145,
@@ -10917,6 +11156,14 @@
         "level": 20,
         "stepmaker": "ANDAMIRO",
         "youtubeUrl": "https://www.youtube.com/watch?v=kGgjWaPrSNM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "HP",
+        "youtubeUrl": "https://www.youtube.com/watch?v=-V9BQse6s_I",
         "types": [],
         "typesSource": "auto"
       }
@@ -11247,6 +11494,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=w0_hquBcd8Q",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SSMAX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=J9dpxPSshXc",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 133,
@@ -11299,6 +11554,14 @@
         "level": 15,
         "stepmaker": "SUNNY",
         "youtubeUrl": "https://www.youtube.com/watch?v=maSncLoi32I",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YIf6EkjYJPU",
         "types": [],
         "typesSource": "auto"
       }
@@ -11417,6 +11680,14 @@
         "level": 17,
         "stepmaker": "KAZEMURA",
         "youtubeUrl": "https://www.youtube.com/watch?v=177u0jBDYNw",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 4,
+        "stepmaker": "PITII",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eEvdPpO3Ooo",
         "types": [],
         "typesSource": "auto"
       }
@@ -11542,6 +11813,14 @@
         "level": 17,
         "stepmaker": "HP",
         "youtubeUrl": "https://www.youtube.com/watch?v=SN2bMYN8cQE",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SANDSTORM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=hq3rdAbf9TU",
         "types": [],
         "typesSource": "auto"
       }
@@ -12081,6 +12360,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=Qds1cYiZ0Ew",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Ad8stSlmXNQ",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 160,
@@ -12215,6 +12502,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=ySsd9ozRN_A",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "HP",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Cju_TRVN48E",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 170,
@@ -12333,6 +12628,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=urwycMvTNW0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=yXd10bfKPXQ",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -12386,6 +12689,14 @@
         "level": 20,
         "stepmaker": "HP",
         "youtubeUrl": "https://www.youtube.com/watch?v=AwRpdaHdGSM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=fxsUDs-8m8I",
         "types": [],
         "typesSource": "auto"
       }
@@ -12449,6 +12760,14 @@
         "level": 19,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=JKTG7GITubQ",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=J3gCYTVgeJM",
         "types": [],
         "typesSource": "auto"
       }
@@ -12532,6 +12851,14 @@
         "level": 25,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=t2GoW1boAqM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=hHcBdn_bzks",
         "types": [],
         "typesSource": "auto"
       }
@@ -13132,6 +13459,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=fs7VmRw32ME",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "LESEMO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=r8Rr8Fn0RYY",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 130,
@@ -13218,6 +13553,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=qdsKQtJoRZI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=-Qq27Tx74ZQ",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 145,
@@ -13288,6 +13631,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=rdOftxOAIcc",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=9wr-hfW_A3s",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 140,
@@ -13349,6 +13700,14 @@
         "level": 22,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=ZW3qAOtY4xM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=xIg5Jgxf5-w",
         "types": [],
         "typesSource": "auto"
       }
@@ -13561,6 +13920,14 @@
         "level": 20,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=if07_Ruhz5w",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=P56KjBx8Fds",
         "types": [],
         "typesSource": "auto"
       }
@@ -13973,6 +14340,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=1EdGrclHG_I",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=PNZYrslkd8c",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 170,
@@ -14028,6 +14403,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=2i6fYpyau0E",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ygpHRFehhs4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 140,
@@ -14081,6 +14464,14 @@
         "level": 15,
         "stepmaker": "AYAPPING",
         "youtubeUrl": "https://www.youtube.com/watch?v=TbKqw61ASdM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eF4bmma_z2w",
         "types": [],
         "typesSource": "auto"
       }
@@ -14216,6 +14607,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=KrsskjmHK1k",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=la-TSWSMPl4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 155,
@@ -14303,10 +14702,18 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=1Ez5gpvFDyE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=LBFSZ8tVvl8",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
-    "bpmMin": 158,
-    "bpmMax": 158
+    "bpmMin": 155,
+    "bpmMax": 155
   },
   "break_it_down": {
     "artist": "MAZO",
@@ -14482,6 +14889,14 @@
         "level": 20,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=AtLvYaqnbBU",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=CKcr96R7H2k",
         "types": [],
         "typesSource": "auto"
       }
@@ -14751,6 +15166,13 @@
         "mode": "Double",
         "level": 15,
         "youtubeUrl": "https://www.youtube.com/watch?v=chpGjm3-_tc",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 5,
+        "youtubeUrl": "https://www.youtube.com/watch?v=6scvSCiGZmc",
         "types": [],
         "typesSource": "auto"
       }
@@ -15245,6 +15667,14 @@
         "level": 21,
         "stepmaker": "AEVILUX",
         "youtubeUrl": "https://www.youtube.com/watch?v=FGEZRkTNiw8",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 4,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=vzeAVrY-ZlU",
         "types": [],
         "typesSource": "auto"
       }
@@ -15825,6 +16255,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=RHVq3kZuH4U",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=NQVQsSIVp8A",
+        "types": [],
+        "typesSource": "auto"
       }
     ]
   },
@@ -16200,6 +16638,14 @@
         "level": 20,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=ad6H__2fccI",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=InNWr8iPvmo",
         "types": [],
         "typesSource": "auto"
       }
@@ -16602,6 +17048,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=ad6H__2fccI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=InNWr8iPvmo",
+        "types": [],
+        "typesSource": "auto"
       }
     ]
   },
@@ -16676,6 +17130,14 @@
         "level": 23,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=HJ4q0Qy6Rr0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=K0dX5V4Nrjo",
         "types": [],
         "typesSource": "auto"
       }
@@ -17147,6 +17609,14 @@
         "level": 23,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=jz1GDCfpte0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=r1y1pNX5mss",
         "types": [],
         "typesSource": "auto"
       }
@@ -17715,6 +18185,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=6twKLNs8pjA",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=_enDn2f09vU",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 157,
@@ -17792,6 +18270,14 @@
         "level": 24,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=eEEOVOEXEUA",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ikZxb3vqn9I",
         "types": [],
         "typesSource": "auto"
       }
@@ -18034,6 +18520,14 @@
         "level": 20,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=Qb0EYFJJZ_s",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=4FLEdnwpj8A",
         "types": [],
         "typesSource": "auto"
       }
@@ -18296,6 +18790,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=dAI0M3vvGG4",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=CbK2AQy4-N0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 141,
@@ -18381,6 +18883,14 @@
         "level": 24,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=lbYK1M7kpPs",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=zOR-DPoOXTo",
         "types": [],
         "typesSource": "auto"
       }
@@ -18669,6 +19179,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=Q5NmFFkSNp8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8pbij531gE8",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 150,
@@ -18801,6 +19319,14 @@
         "level": 20,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=OYprTrwxIgE",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1rNMqTYU-D8",
         "types": [],
         "typesSource": "auto"
       }
@@ -19192,6 +19718,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=Ieozs4zdaZg",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=5s8Xq4AeEw0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 145,
@@ -19346,6 +19880,13 @@
         "level": 25,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=y47xP6LMz_o",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "youtubeUrl": "https://www.youtube.com/watch?v=TOt3DBHmCSE",
         "types": [],
         "typesSource": "auto"
       }
@@ -19882,6 +20423,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=UgkEylpb9jM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Q7MOQqcwoVA",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 180,
@@ -20079,6 +20628,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=DkxTzFHM8-o",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ssGGoHRyWwo",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 154,
@@ -20212,6 +20769,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=8ETBljdhcXQ",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=KUwo2dinWQg",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 160,
@@ -20335,6 +20900,14 @@
         "level": 15,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=PsEteHPb5C0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eE81U270SE8",
         "types": [],
         "typesSource": "auto"
       }
@@ -20495,6 +21068,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=WlvRACpLZLY",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=z3llz03VMyA",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 148,
@@ -20629,6 +21210,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=PHByrR5JrS8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "NIMGO",
+        "youtubeUrl": "https://www.youtube.com/watch?v=qRMk5niFP-E",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 175,
@@ -20745,6 +21334,14 @@
         "level": 24,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=gEXOed62tvw",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0HoId6_s8PM",
         "types": [],
         "typesSource": "auto"
       }
@@ -20958,6 +21555,14 @@
         "level": 22,
         "stepmaker": "HAPPENSO",
         "youtubeUrl": "https://www.youtube.com/watch?v=bL_YcOsorvY",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1T2bh3qs2j8",
         "types": [],
         "typesSource": "auto"
       }
@@ -21304,6 +21909,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=j662OfmB6z0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Sy2odg9pgE8",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 190,
@@ -21373,6 +21986,14 @@
         "level": 19,
         "stepmaker": "BME",
         "youtubeUrl": "https://www.youtube.com/watch?v=B0zFqYiVhpw",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=aAgBungmQpk",
         "types": [],
         "typesSource": "auto"
       }
@@ -21467,6 +22088,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=DDccAQXO6YE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=NyARVXrcoeA",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 154,
@@ -21552,6 +22181,14 @@
         "level": 24,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=UvJuHR4lodI",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=HV-W2N8C23M",
         "types": [],
         "typesSource": "auto"
       }
@@ -21711,6 +22348,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=U1TvsTaw2g4",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YTzLEAGBMnk",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 165,
@@ -21795,6 +22440,14 @@
         "level": 22,
         "stepmaker": "FEFEMZ",
         "youtubeUrl": "https://www.youtube.com/watch?v=MqfKOwg77Ng",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0wNOjzXjixc",
         "types": [],
         "typesSource": "auto"
       }
@@ -22002,6 +22655,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=9Km6_JMAKp4",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TghX7eg1meM",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 174,
@@ -22142,6 +22803,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=iAz6mZerbbE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=yjuVnWHzvcA",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 158,
@@ -22211,6 +22880,14 @@
         "level": 20,
         "stepmaker": "SUNNY",
         "youtubeUrl": "https://www.youtube.com/watch?v=HqgX17i6dzM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=IPQNGz0CrIs",
         "types": [],
         "typesSource": "auto"
       }
@@ -22456,6 +23133,14 @@
         "level": 25,
         "stepmaker": "FEFEMZ",
         "youtubeUrl": "https://www.youtube.com/watch?v=L6W-tDN1VBc",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 4,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=OBkw69HBRVE",
         "types": [],
         "typesSource": "auto"
       }
@@ -23002,6 +23687,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=7_XvUBOHiYk",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=qOHTcdiB70U",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 173,
@@ -23073,6 +23766,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=WR0hneL03NY",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=mFG1yy34LeE",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 172,
@@ -23142,6 +23843,14 @@
         "level": 22,
         "stepmaker": "SUNNY",
         "youtubeUrl": "https://www.youtube.com/watch?v=8MENI8quQZU",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=yMXCiOUBu_Q",
         "types": [],
         "typesSource": "auto"
       }
@@ -23223,6 +23932,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=HkiXTOxUM04",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=QCSOEnPATZs",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 150,
@@ -23302,6 +24019,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=mj1EKbKn0ss",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=-chYQMKT_Ms",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 174,
@@ -23365,6 +24090,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=-nyqpq9J-L8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=bts6DKL79Wo",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -23410,6 +24143,14 @@
         "level": 21,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=L_JJJpUUAyg",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=XtLHejVpN3E",
         "types": [],
         "typesSource": "auto"
       }
@@ -23625,6 +24366,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=RuMi2ZhIWx0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TsjxAak28_w",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 260,
@@ -23759,6 +24508,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=mIsC96pZ6is",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=oVIYRNfZ4Ds",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 185,
@@ -23854,6 +24611,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=pBt8NRgkEO8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=ideKjHxSjJs",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 160,
@@ -23931,6 +24696,14 @@
         "level": 23,
         "stepmaker": "OSING",
         "youtubeUrl": "https://www.youtube.com/watch?v=2YCJZJl-GKc",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eHMU0sAz_Es",
         "types": [],
         "typesSource": "auto"
       }
@@ -24028,6 +24801,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=j9yKySZ2wuo",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=SqtyWdTB_9k",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 128,
@@ -24097,6 +24878,14 @@
         "level": 22,
         "stepmaker": "BME",
         "youtubeUrl": "https://www.youtube.com/watch?v=Ia-xwb7HTvE",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1P6oMpuqE3I",
         "types": [],
         "typesSource": "auto"
       }
@@ -24263,6 +25052,14 @@
         "level": 20,
         "stepmaker": "SUNNY",
         "youtubeUrl": "https://www.youtube.com/watch?v=2vv5eg1qQj8",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=9KRC7zAW-oo",
         "types": [],
         "typesSource": "auto"
       }
@@ -24700,6 +25497,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=eluFyyF8DTw",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=_darfX8VhFY",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 145,
@@ -24879,6 +25684,14 @@
         "level": 21,
         "stepmaker": "FEFEMZ",
         "youtubeUrl": "https://www.youtube.com/watch?v=j9yKySZ2wuo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=SqtyWdTB_9k",
         "types": [],
         "typesSource": "auto"
       }
@@ -25816,6 +26629,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=SPHes60CP9c",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SPHAM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=TA-X4sGYGqg",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 180,
@@ -25883,6 +26704,14 @@
         "level": 23,
         "stepmaker": "AEVILUX",
         "youtubeUrl": "https://www.youtube.com/watch?v=1MNkmI3D730",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=VDbZKwe4PVs",
         "types": [],
         "typesSource": "auto"
       }
@@ -25962,6 +26791,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=S1by8iT8AP8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=RVZSVYKVxI4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 174,
@@ -26007,6 +26844,14 @@
         "level": 21,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=DX-znmBbcb4",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=nEPpva8AmKM",
         "types": [],
         "typesSource": "auto"
       }
@@ -26653,6 +27498,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=uKYaOvWoits",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=3aObTpXr1Mg",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 170,
@@ -26887,6 +27740,14 @@
         "level": 25,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=cHCPDo39DKg",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=VutaTijXy7s",
         "types": [],
         "typesSource": "auto"
       }
@@ -27533,6 +28394,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=LE0RL4ZWVk8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "MINAMI",
+        "youtubeUrl": "https://www.youtube.com/watch?v=xGVcDnEAiK4",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 130,
@@ -27612,6 +28481,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=8qM7OB1bIyI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "OSING",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Yp2YZjIR8po",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 155,
@@ -27681,6 +28558,14 @@
         "level": 21,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=-K4_BUByGbY",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=JhJqBmwtjkY",
         "types": [],
         "typesSource": "auto"
       }
@@ -27888,6 +28773,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=uxLkLHTLvwI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=JTvv9nwCl98",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -27949,6 +28842,14 @@
         "level": 19,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=-JUGD4eh8rM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=8alspBnS-xA",
         "types": [],
         "typesSource": "auto"
       }
@@ -28022,6 +28923,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=b2d_Pvbrilc",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNBME(SUNNY + BME)",
+        "youtubeUrl": "https://www.youtube.com/watch?v=kH2z8JW4a80",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 174,
@@ -28091,6 +29000,14 @@
         "level": 21,
         "stepmaker": "AEVILUX",
         "youtubeUrl": "https://www.youtube.com/watch?v=5wqQInja9f0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=n08xFYxrJZI",
         "types": [],
         "typesSource": "auto"
       }
@@ -28209,6 +29126,14 @@
         "level": 20,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=UZQUNIRLnaM",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "AEVILUX",
+        "youtubeUrl": "https://www.youtube.com/watch?v=NKKw8DmIPoI",
         "types": [],
         "typesSource": "auto"
       }
@@ -28784,6 +29709,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=qiMG0GBLHgU",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=cyTlPxdc4AE",
+        "types": [],
+        "typesSource": "auto"
       }
     ]
   },
@@ -28978,6 +29911,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=7nvKjMVLmRM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=EsxoCefmgbY",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 130,
@@ -29080,6 +30021,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=1IjfwbRPFhM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=bpiYdOald9c",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -29158,6 +30107,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=IkSI_xMbFTs",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SPHAM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=a-chHyvo9MU",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 136,
@@ -29234,6 +30191,14 @@
         "level": 18,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=suK7xuGmb_8",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=eJSN73tFHRs",
         "types": [],
         "typesSource": "auto"
       }
@@ -29493,6 +30458,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=rBQS6oDYjt8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=JnS2N53DEB0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 125,
@@ -29577,6 +30550,14 @@
         "level": 18,
         "stepmaker": "SUNNY",
         "youtubeUrl": "https://www.youtube.com/watch?v=D3mgqvPaLI8",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=z8jiMCot3Hc",
         "types": [],
         "typesSource": "auto"
       }
@@ -29741,6 +30722,14 @@
         "level": 22,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=nt8iqDTnUfE",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=XfhtHyauRgU",
         "types": [],
         "typesSource": "auto"
       }
@@ -30139,6 +31128,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=sFdCutDCEXk",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=FEa4etM_jGg",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 139,
@@ -30215,6 +31212,14 @@
         "level": 18,
         "stepmaker": "NIMGO",
         "youtubeUrl": "https://www.youtube.com/watch?v=jL0_vFeTGh4",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=EfWxWaLGLOo",
         "types": [],
         "typesSource": "auto"
       }
@@ -30930,6 +31935,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=mJcy0LHvAW0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YTVNW272fxw",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 202,
@@ -31410,6 +32423,14 @@
         "level": 23,
         "stepmaker": "GGWANG",
         "youtubeUrl": "https://www.youtube.com/watch?v=GHmOzPZvfsY",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SPHAM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=itLr3oL9iz0",
         "types": [],
         "typesSource": "auto"
       }
@@ -32469,6 +33490,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=3h6fkTyDsDM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "OSING",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1LnVBtVae6M",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 180,
@@ -32611,6 +33640,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=lbu4rVtKd7A",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "BME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=QF1zeEAwAoA",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 195,
@@ -32682,6 +33719,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=6VU78pqrdSw",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=5fJEZVcJR-0",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 150,
@@ -32743,6 +33788,13 @@
         "level": 21,
         "stepmaker": "SPHAM",
         "youtubeUrl": "https://www.youtube.com/watch?v=5cpUE3SxCk0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
         "types": [],
         "typesSource": "auto"
       }
@@ -33232,6 +34284,14 @@
         "level": 27,
         "stepmaker": "EXC",
         "youtubeUrl": "https://www.youtube.com/watch?v=TXmqhtBT4N0",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 4,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Ki06PsREzos",
         "types": [],
         "typesSource": "auto"
       }
@@ -33753,6 +34813,14 @@
         "level": 23,
         "stepmaker": "SPHAM",
         "youtubeUrl": "https://www.youtube.com/watch?v=Qhrdlv_2FNo",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SPHAM",
+        "youtubeUrl": "https://www.youtube.com/watch?v=N_V1j523eww",
         "types": [],
         "typesSource": "auto"
       }
@@ -34473,6 +35541,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=4cLbz_6n9fI",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=1qBPZibfUbc",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 180,
@@ -34805,6 +35881,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=Hsrcl-FmTHM",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "EXC",
+        "youtubeUrl": "https://www.youtube.com/watch?v=v2JrcgiT2tc",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 210,
@@ -34944,6 +36028,13 @@
         "mode": "Double",
         "level": 20,
         "youtubeUrl": "https://www.youtube.com/watch?v=bBN_jCI03l8",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "youtubeUrl": "https://www.youtube.com/watch?v=ZuAIBMD0gPk",
         "types": [],
         "typesSource": "auto"
       }
@@ -36424,6 +37515,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=XwHt8gIr3wE",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=2T_6n7M4438",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 160,
@@ -36580,6 +37679,14 @@
         "level": 23,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=5w-7yu9dAfU",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 3,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=oecrGzyIMD8",
         "types": [],
         "typesSource": "auto"
       }
@@ -36865,6 +37972,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=GQTQyy9eiLY",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=UzVtdQ3Ohqk",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 180,
@@ -37116,6 +38231,14 @@
         "level": 20,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=P4bUCYlpa_g",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Dhwkvwk57Oc",
         "types": [],
         "typesSource": "auto"
       }
@@ -37915,6 +39038,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=0BLht7c7rfA",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=UmQWmNcW76c",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -38609,6 +39740,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=EeU4rbn_2d8",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "DulKi",
+        "youtubeUrl": "https://www.youtube.com/watch?v=WPDvQX82S7U",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 200,
@@ -38775,6 +39914,14 @@
         "youtubeUrl": "https://www.youtube.com/watch?v=lUr3Jyfgsv0",
         "types": [],
         "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "SUNNY",
+        "youtubeUrl": "https://www.youtube.com/watch?v=0lhmmV3TzQM",
+        "types": [],
+        "typesSource": "auto"
       }
     ],
     "bpmMin": 160,
@@ -38923,6 +40070,14 @@
         "level": 22,
         "stepmaker": "CONRAD",
         "youtubeUrl": "https://www.youtube.com/watch?v=DDklEXMiR_U",
+        "types": [],
+        "typesSource": "auto"
+      },
+      {
+        "mode": "CoOp",
+        "level": 2,
+        "stepmaker": "CONRAD",
+        "youtubeUrl": "https://www.youtube.com/watch?v=wHHjzPbt1aU",
         "types": [],
         "typesSource": "auto"
       }
