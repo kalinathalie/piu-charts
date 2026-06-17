@@ -13,6 +13,7 @@
     "ingest:pumpproplus": "tsx scripts/ingest-pumpproplus.ts",
     "ingest:namu": "tsx scripts/ingest-namu.ts",
     "ingest:manual": "tsx scripts/apply-manual-charts.ts",
+    "fetch:thumbs": "tsx scripts/fetch-thumbs.ts",
     "canonicalize:titles": "tsx scripts/canonicalize-titles.ts",
     "report:unmatched": "tsx scripts/unmatched-report.ts",
     "spike:order": "tsx scripts/spike-order.ts"
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "jimp": "^1.6.1",
     "tsx": "^4.19.0",
     "typescript": "^5.7.0",
     "vitest": "^2.1.0"
