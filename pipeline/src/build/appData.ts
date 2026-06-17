@@ -16,6 +16,7 @@ export interface AppChart {
   level: number;
   stepmaker?: string;
   types: string[];
+  youtubeUrl?: string;
   placements: AppPlacement[];
 }
 
@@ -85,6 +86,7 @@ export function toAppData(ds: Dataset): AppData {
       level: c.level,
       stepmaker: c.stepmaker,
       types: c.types,
+      youtubeUrl: c.youtubeUrl,
       placements: computeAllPlacements(c, ds, cats).map((p) => ({
         label: p.categoryName,
         position: p.position,

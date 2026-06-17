@@ -3,6 +3,7 @@ import {
   BackHandler,
   FlatList,
   Image,
+  Linking,
   Pressable,
   ScrollView,
   StatusBar,
@@ -24,6 +25,20 @@ function Thumb({ id, size, radius }: { id: string; size: number; radius: number 
   const style = { width: size, height: size, borderRadius: radius };
   if (src) return <Image source={src} style={style} resizeMode="cover" />;
   return <View style={[style, styles.thumbPlaceholder]} />;
+}
+
+/** YouTube play-button that opens the chart's video. */
+function YouTubeButton({ url }: { url: string }) {
+  return (
+    <Pressable
+      onPress={() => Linking.openURL(url)}
+      style={styles.ytBtn}
+      hitSlop={10}
+      accessibilityLabel="Ver vídeo no YouTube"
+    >
+      <View style={styles.ytTriangle} />
+    </Pressable>
+  );
 }
 
 export default function App() {
@@ -184,6 +199,7 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
                   <Text style={styles.stepmaker}>por {c.stepmaker}</Text>
                 ) : null}
               </View>
+              {c.youtubeUrl ? <YouTubeButton url={c.youtubeUrl} /> : null}
               {level && (
                 <Text style={styles.chartValue}>
                   {level.position}
@@ -287,6 +303,28 @@ const styles = StyleSheet.create({
   chartLabel: { color: "#fff", fontSize: 18, fontWeight: "800" },
   types: { color: "rgba(255,255,255,0.9)", fontSize: 13, fontWeight: "700" },
   stepmaker: { color: "rgba(255,255,255,0.8)", fontSize: 12, marginTop: 3 },
-  chartValue: { color: "#fff", fontSize: 18, fontWeight: "800" },
+  chartValue: { color: "#fff", fontSize: 18, fontWeight: "800", minWidth: 56, textAlign: "right" },
   chartTotal: { color: "rgba(255,255,255,0.65)", fontSize: 14, fontWeight: "600" },
+  ytBtn: {
+    width: 36,
+    height: 26,
+    borderRadius: 7,
+    backgroundColor: "#FF0000",
+    alignItems: "center",
+    justifyContent: "center",
+    marginHorizontal: 12,
+    borderWidth: 1,
+    borderColor: "rgba(255,255,255,0.55)",
+  },
+  ytTriangle: {
+    width: 0,
+    height: 0,
+    marginLeft: 3,
+    borderTopWidth: 6,
+    borderTopColor: "transparent",
+    borderBottomWidth: 6,
+    borderBottomColor: "transparent",
+    borderLeftWidth: 10,
+    borderLeftColor: "#fff",
+  },
 });

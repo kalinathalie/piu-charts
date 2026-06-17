@@ -13,6 +13,7 @@ export interface AppChart {
   level: number;
   stepmaker?: string;
   types: string[];
+  youtubeUrl?: string;
   placements: AppPlacement[];
 }
 

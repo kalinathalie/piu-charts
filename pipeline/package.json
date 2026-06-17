@@ -12,6 +12,7 @@
     "ingest:piucenter": "tsx scripts/ingest-piucenter.ts",
     "ingest:pumpproplus": "tsx scripts/ingest-pumpproplus.ts",
     "ingest:namu": "tsx scripts/ingest-namu.ts",
+    "ingest:base": "tsx scripts/ingest-base.ts",
     "ingest:manual": "tsx scripts/apply-manual-charts.ts",
     "fetch:thumbs": "tsx scripts/fetch-thumbs.ts",
     "canonicalize:titles": "tsx scripts/canonicalize-titles.ts",

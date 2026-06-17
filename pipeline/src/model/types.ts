@@ -29,6 +29,8 @@ export interface Chart {
   stepmaker?: string;
   types: ChartType[];
   typesSource: "auto" | "manual" | "mixed";
+  /** Link to a play video for this specific chart, if known. */
+  youtubeUrl?: string;
 }
 
 export interface Dataset {

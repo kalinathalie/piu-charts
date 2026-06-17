@@ -11,6 +11,7 @@ export interface ChartMeta {
   stepmaker?: string;
   types?: Chart["types"];
   typesSource?: Chart["typesSource"];
+  youtubeUrl?: string;
 }
 
 export interface SongMeta {
@@ -61,6 +62,7 @@ export function buildDatasetFromCatalog(root: string): Dataset {
         stepmaker: c.stepmaker,
         types: c.types ?? [],
         typesSource: c.typesSource ?? "manual",
+        youtubeUrl: c.youtubeUrl,
       });
     });
   }
