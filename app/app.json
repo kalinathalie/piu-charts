@@ -5,12 +5,19 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
     "platforms": ["android", "web"],
     "android": {
-      "package": "com.kalina.piucharts"
+      "package": "com.kalina.piucharts",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
     },
     "web": {
-      "bundler": "metro"
-    }
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": ["./plugins/withGradleVersion"]
   }
 }

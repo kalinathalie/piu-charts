@@ -1,8 +1,8 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
+  BackHandler,
   FlatList,
   Pressable,
-  SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -10,14 +10,37 @@ import {
   TextInput,
   View,
 } from "react-native";
+import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
 import rawData from "./assets/app-data.json";
 import { normalizeQuery, type AppData, type AppSong } from "./src/appData";
 
 const data = rawData as AppData;
 
 export default function App() {
+  return (
+    <SafeAreaProvider>
+      <Main />
+    </SafeAreaProvider>
+  );
+}
+
+function Main() {
+  const insets = useSafeAreaInsets();
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState<AppSong | null>(null);
+
+  // Hardware/gesture back: when viewing a chart, go back to the list instead of
+  // exiting the app. On the list, let the system handle it (exit).
+  useEffect(() => {
+    const sub = BackHandler.addEventListener("hardwareBackPress", () => {
+      if (selected) {
+        setSelected(null);
+        return true;
+      }
+      return false;
+    });
+    return () => sub.remove();
+  }, [selected]);
 
   const results = useMemo(() => {
     const q = normalizeQuery(query);
@@ -33,10 +56,15 @@ export default function App() {
   }, [query]);
 
   return (
-    <SafeAreaView style={styles.safe}>
-      <StatusBar barStyle="light-content" />
+    <View
+      style={[
+        styles.safe,
+        { paddingTop: insets.top, paddingLeft: insets.left, paddingRight: insets.right },
+      ]}
+    >
+      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
       {selected ? (
-        <Detail song={selected} onBack={() => setSelected(null)} />
+        <Detail song={selected} onBack={() => setSelected(null)} bottomInset={insets.bottom} />
       ) : (
         <View style={styles.flex}>
           <Text style={styles.header}>PIU Charts</Text>
@@ -56,6 +84,7 @@ export default function App() {
             data={results}
             keyExtractor={(s) => s.id}
             keyboardShouldPersistTaps="handled"
+            contentContainerStyle={{ paddingBottom: insets.bottom + 12 }}
             renderItem={({ item }) => (
               <Pressable style={styles.row} onPress={() => setSelected(item)}>
                 <View style={styles.flex}>
@@ -74,11 +103,19 @@ export default function App() {
           />
         </View>
       )}
-    </SafeAreaView>
+    </View>
   );
 }
 
-function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
+function Detail({
+  song,
+  onBack,
+  bottomInset,
+}: {
+  song: AppSong;
+  onBack: () => void;
+  bottomInset: number;
+}) {
   const bpm =
     song.bpmMin > 0
       ? song.bpmMin === song.bpmMax
@@ -87,7 +124,7 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
       : null;
 
   return (
-    <ScrollView contentContainerStyle={styles.detail}>
+    <ScrollView contentContainerStyle={[styles.detail, { paddingBottom: bottomInset + 32 }]}>
       <Pressable onPress={onBack} style={styles.back}>
         <Text style={styles.backText}>‹ Voltar</Text>
       </Pressable>
@@ -108,33 +145,35 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
 
       {song.charts.length === 0 ? (
         <Text style={styles.note}>
-          Charts (S16/D20…) ainda não cadastrados para esta música. Preencha em
-          catalog/metadata.json e rode o build.
+          Charts (S16/D20…) ainda não cadastrados para esta música.
         </Text>
       ) : (
-        song.charts.map((c) => (
-          <View key={c.id} style={styles.chartBlock}>
-            <View style={styles.chartHeader}>
-              <Text style={styles.chartLabel}>{c.label}</Text>
-              {c.types.length > 0 && (
-                <Text style={styles.types}>{c.types.join(" · ")}</Text>
+        song.charts.map((c) => {
+          // Per-chart we only show the difficulty-level placement; the song's
+          // version/total placements are already shown once in the card above.
+          const level = c.placements.find((p) => p.label.startsWith("Nível"));
+          return (
+            <View key={c.id} style={styles.chartRow}>
+              <View style={styles.flex}>
+                <View style={styles.chartHeader}>
+                  <Text style={styles.chartLabel}>{c.label}</Text>
+                  {c.types.length > 0 && (
+                    <Text style={styles.types}>{c.types.join(" · ")}</Text>
+                  )}
+                </View>
+                {c.stepmaker ? (
+                  <Text style={styles.stepmaker}>por {c.stepmaker}</Text>
+                ) : null}
+              </View>
+              {level && (
+                <Text style={styles.chartValue}>
+                  {level.position}
+                  <Text style={styles.placementTotal}>/{level.total}</Text>
+                </Text>
               )}
             </View>
-            {c.stepmaker ? (
-              <Text style={styles.stepmaker}>por {c.stepmaker}</Text>
-            ) : null}
-            <View style={styles.card}>
-              {c.placements.map((p) => (
-                <PlacementRow
-                  key={p.label}
-                  label={p.label}
-                  position={p.position}
-                  total={p.total}
-                />
-              ))}
-            </View>
-          </View>
-        ))
+          );
+        })
       )}
     </ScrollView>
   );
@@ -188,7 +227,7 @@ const styles = StyleSheet.create({
   badge: { color: "#5a6cff", fontSize: 13, fontWeight: "700" },
   empty: { color: "#7a7f8c", textAlign: "center", marginTop: 40 },
 
-  detail: { padding: 16, paddingBottom: 48 },
+  detail: { padding: 16 },
   back: { paddingVertical: 8 },
   backText: { color: "#5a6cff", fontSize: 16, fontWeight: "600" },
   title: { color: "#fff", fontSize: 26, fontWeight: "800", marginTop: 4 },
@@ -207,9 +246,20 @@ const styles = StyleSheet.create({
   placementValue: { color: "#fff", fontSize: 18, fontWeight: "800" },
   placementTotal: { color: "#7a7f8c", fontSize: 14, fontWeight: "600" },
   note: { color: "#8b90a0", fontSize: 13, lineHeight: 19, fontStyle: "italic" },
-  chartBlock: { marginBottom: 8 },
-  chartHeader: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
+
+  chartRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    backgroundColor: "#1b1d27",
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    paddingVertical: 14,
+    marginBottom: 8,
+  },
+  chartHeader: { flexDirection: "row", alignItems: "center", gap: 10 },
   chartLabel: { color: "#fff", fontSize: 18, fontWeight: "800" },
   types: { color: "#5a6cff", fontSize: 13, fontWeight: "700" },
-  stepmaker: { color: "#8b90a0", fontSize: 13, marginTop: 2, marginBottom: 6 },
+  stepmaker: { color: "#8b90a0", fontSize: 12, marginTop: 3 },
+  chartValue: { color: "#fff", fontSize: 18, fontWeight: "800" },
 });
