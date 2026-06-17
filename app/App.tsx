@@ -166,7 +166,13 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
           // version/total placements are already shown once in the card above.
           const level = c.placements.find((p) => p.label.startsWith("Nível"));
           return (
-            <View key={c.id} style={styles.chartRow}>
+            <View
+              key={c.id}
+              style={[
+                styles.chartRow,
+                c.mode?.toLowerCase() === "single" ? styles.chartRowSingle : styles.chartRowDouble,
+              ]}
+            >
               <View style={styles.flex}>
                 <View style={styles.chartHeader}>
                   <Text style={styles.chartLabel}>{c.label}</Text>
@@ -181,7 +187,7 @@ function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
               {level && (
                 <Text style={styles.chartValue}>
                   {level.position}
-                  <Text style={styles.placementTotal}>/{level.total}</Text>
+                  <Text style={styles.chartTotal}>/{level.total}</Text>
                 </Text>
               )}
             </View>
@@ -275,9 +281,12 @@ const styles = StyleSheet.create({
     paddingVertical: 14,
     marginBottom: 8,
   },
+  chartRowSingle: { backgroundColor: "#9e3340" },
+  chartRowDouble: { backgroundColor: "#247a4a" },
   chartHeader: { flexDirection: "row", alignItems: "center", gap: 10 },
   chartLabel: { color: "#fff", fontSize: 18, fontWeight: "800" },
-  types: { color: "#5a6cff", fontSize: 13, fontWeight: "700" },
-  stepmaker: { color: "#8b90a0", fontSize: 12, marginTop: 3 },
+  types: { color: "rgba(255,255,255,0.9)", fontSize: 13, fontWeight: "700" },
+  stepmaker: { color: "rgba(255,255,255,0.8)", fontSize: 12, marginTop: 3 },
   chartValue: { color: "#fff", fontSize: 18, fontWeight: "800" },
+  chartTotal: { color: "rgba(255,255,255,0.65)", fontSize: 14, fontWeight: "600" },
 });
