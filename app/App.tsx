@@ -59,12 +59,17 @@ function Main() {
     <View
       style={[
         styles.safe,
-        { paddingTop: insets.top, paddingLeft: insets.left, paddingRight: insets.right },
+        {
+          paddingTop: insets.top,
+          paddingBottom: insets.bottom,
+          paddingLeft: insets.left,
+          paddingRight: insets.right,
+        },
       ]}
     >
       <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
       {selected ? (
-        <Detail song={selected} onBack={() => setSelected(null)} bottomInset={insets.bottom} />
+        <Detail song={selected} onBack={() => setSelected(null)} />
       ) : (
         <View style={styles.flex}>
           <Text style={styles.header}>PIU Charts</Text>
@@ -84,7 +89,7 @@ function Main() {
             data={results}
             keyExtractor={(s) => s.id}
             keyboardShouldPersistTaps="handled"
-            contentContainerStyle={{ paddingBottom: insets.bottom + 12 }}
+            contentContainerStyle={{ paddingBottom: 12 }}
             renderItem={({ item }) => (
               <Pressable style={styles.row} onPress={() => setSelected(item)}>
                 <View style={styles.flex}>
@@ -107,15 +112,7 @@ function Main() {
   );
 }
 
-function Detail({
-  song,
-  onBack,
-  bottomInset,
-}: {
-  song: AppSong;
-  onBack: () => void;
-  bottomInset: number;
-}) {
+function Detail({ song, onBack }: { song: AppSong; onBack: () => void }) {
   const bpm =
     song.bpmMin > 0
       ? song.bpmMin === song.bpmMax
@@ -124,7 +121,7 @@ function Detail({
       : null;
 
   return (
-    <ScrollView contentContainerStyle={[styles.detail, { paddingBottom: bottomInset + 32 }]}>
+    <ScrollView contentContainerStyle={styles.detail}>
       <Pressable onPress={onBack} style={styles.back}>
         <Text style={styles.backText}>‹ Voltar</Text>
       </Pressable>
@@ -227,7 +224,7 @@ const styles = StyleSheet.create({
   badge: { color: "#5a6cff", fontSize: 13, fontWeight: "700" },
   empty: { color: "#7a7f8c", textAlign: "center", marginTop: 40 },
 
-  detail: { padding: 16 },
+  detail: { padding: 16, paddingBottom: 32 },
   back: { paddingVertical: 8 },
   backText: { color: "#5a6cff", fontSize: 16, fontWeight: "600" },
   title: { color: "#fff", fontSize: 26, fontWeight: "800", marginTop: 4 },
