@@ -2,6 +2,7 @@ import type { Dataset, Song, Chart } from "../model/types";
 import { chartLabel } from "../model/types";
 import { deriveCategories } from "../numbering/categories";
 import { computeAllPlacements } from "../numbering/engine";
+import type { AppTitleCategory } from "./titles";
 
 export interface AppPlacement {
   label: string;
@@ -29,6 +30,8 @@ export interface AppSong {
   bpmMin: number;
   bpmMax: number;
   debutVersion: string;
+  /** Arcade song-selection category (genre tab): K-POP | ORIGINAL | WORLD | JMUSIC | XROSS. */
+  category: string;
   releaseIndex: number;
   /** "REMIX" | "SHORTCUT" | "FULLSONG" for special editions; omitted otherwise. */
   variant?: string;
@@ -41,13 +44,14 @@ export interface AppData {
   songCount: number;
   chartCount: number;
   songs: AppSong[];
+  titles: AppTitleCategory[];
 }
 
 /**
  * Pre-compute everything the app renders: per-song placements (all songs + version)
  * and per-chart placements (via the numbering engine). The app stays a thin viewer.
  */
-export function toAppData(ds: Dataset): AppData {
+export function toAppData(ds: Dataset, titles: AppTitleCategory[] = []): AppData {
   const cats = deriveCategories(ds);
 
   const songsSorted = [...ds.songs].sort((a, b) => a.releaseIndex - b.releaseIndex);
@@ -105,6 +109,7 @@ export function toAppData(ds: Dataset): AppData {
       bpmMin: s.bpmMin,
       bpmMax: s.bpmMax,
       debutVersion: s.debutVersion,
+      category: s.category,
       releaseIndex: s.releaseIndex,
       variant: s.variant,
       placements,
@@ -112,5 +117,5 @@ export function toAppData(ds: Dataset): AppData {
     };
   });
 
-  return { songCount: songs.length, chartCount: ds.charts.length, songs };
+  return { songCount: songs.length, chartCount: ds.charts.length, songs, titles };
 }

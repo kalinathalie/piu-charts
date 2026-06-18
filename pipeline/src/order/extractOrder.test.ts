@@ -4,7 +4,7 @@ import type { Song } from "../model/types";
 
 const song = (id: string, title: string, titleKr?: string): Song => ({
   id, title, titleNormalized: title.toLowerCase(), titleKr,
-  artist: "a", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0,
+  artist: "a", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0,
 });
 
 const songs = [

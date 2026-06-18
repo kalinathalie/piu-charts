@@ -4,8 +4,8 @@ import type { Dataset } from "../model/types";
 
 const ds: Dataset = {
   songs: [
-    { id: "x", title: "X", titleNormalized: "x", artist: "a", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 1 },
-    { id: "y", title: "Y", titleNormalized: "y", artist: "a", bpmMin: 100, bpmMax: 100, debutVersion: "XX", releaseIndex: 2 },
+    { id: "x", title: "X", titleNormalized: "x", artist: "a", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 1 },
+    { id: "y", title: "Y", titleNormalized: "y", artist: "a", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "XX", releaseIndex: 2 },
   ],
   charts: [
     { id: "c1", songId: "x", mode: "Single", level: 16, types: [], typesSource: "auto" },

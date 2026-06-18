@@ -26,16 +26,32 @@ export interface AppSong {
   bpmMin: number;
   bpmMax: number;
   debutVersion: string;
+  category: "K-POP" | "ORIGINAL" | "WORLD" | "JMUSIC" | "XROSS";
   releaseIndex: number;
   variant?: "REMIX" | "SHORTCUT" | "FULLSONG";
   placements: AppPlacement[];
   charts: AppChart[];
 }
 
+export interface AppTitle {
+  name: string;
+  songId?: string;
+  songTitle: string;
+  chartLabel: string;
+  requirement: string;
+}
+
+export interface AppTitleCategory {
+  key: string;
+  label: string;
+  titles: AppTitle[];
+}
+
 export interface AppData {
   songCount: number;
   chartCount: number;
   songs: AppSong[];
+  titles: AppTitleCategory[];
 }
 
 export function normalizeQuery(s: string): string {

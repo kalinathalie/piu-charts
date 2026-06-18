@@ -100,6 +100,35 @@ async function enumerateCatalog(): Promise<Row[]> {
   return all;
 }
 
+// Force a song id to a specific pumpproplus image when fuzzy matching picks the
+// wrong cover (e.g. "Final Audition 3" matched "Final Audition 2" instead of the
+// real "Final Audition 3 U.F"). Paths are relative to ORIGIN.
+const FORCE_IMG: Record<string, string> = {
+  final_audition_3: "/images/songs/a00/a01.png",
+  final_audition_3_short_cut: "/images/songs/1000/1049.png",
+  // Songs whose name differs from pumpproplus (punctuation/encoding/"Ep."→"Episode")
+  // so the fuzzy matcher missed them, though the cover exists there.
+  final_audition_ep_1: "/images/songs/900/922.png",
+  final_audition_ep_2_1: "/images/songs/d00/d28.png",
+  final_audition_ep_2_2: "/images/songs/d00/d30.png",
+  final_audition_ep_2_x: "/images/songs/f00/f29.png",
+  final_audition_ep_2_x_short_cut: "/images/songs/1000/1050.png",
+  the_people_didn_t_know_pumping_up: "/images/songs/f00/f31.png",
+  sudden_romance_piu_edit: "/images/songs/1400/1478.png",
+  cross_over_feat_lyuu: "/images/songs/1500/1505.png",
+  silver_beat_feat_chisauezono: "/images/songs/1500/1511.png",
+  x_percent_x: "/images/songs/1600/1620.png",
+  "8_6": "/images/songs/1600/1670.png",
+  "8_6_full_song": "/images/songs/1600/16f7.png",
+  friend: "/images/songs/1600/1675.png",
+  dual_racing_red_vs_blue: "/images/songs/1600/1682.png",
+  time_attack_blue: "/images/songs/1500/15A3.png",
+  eon: "/images/songs/1800/eon.png",
+  rip: "/images/songs/1800/18237.jpg",
+  boom: "/images/songs/1800/18015.png",
+  x_treme: "/images/songs/a00/a06.png",
+};
+
 async function main() {
   mkdirSync(thumbsDir, { recursive: true });
   const songs = parseSonglist(readFileSync(songlistPath, "utf8"));
@@ -152,7 +181,7 @@ async function main() {
       withImage.push(song.id);
       continue;
     }
-    const row = match(song.title);
+    const row = FORCE_IMG[song.id] ? { img: FORCE_IMG[song.id], name: song.title, artist: "" } : match(song.title);
     if (!row) {
       missing.push(song.title);
       continue;

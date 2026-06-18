@@ -6,6 +6,7 @@ import {
   Linking,
   Pressable,
   ScrollView,
+  SectionList,
   StatusBar,
   StyleSheet,
   Text,
@@ -14,7 +15,7 @@ import {
 } from "react-native";
 import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
 import rawData from "./assets/app-data.json";
-import { normalizeQuery, type AppData, type AppSong, type AppChart } from "./src/appData";
+import { normalizeQuery, type AppData, type AppSong, type AppChart, type AppTitle } from "./src/appData";
 import { THUMBS } from "./src/thumbs";
 
 const data = rawData as AppData;
@@ -24,6 +25,18 @@ const PHOENIX_VERSION = "2.12";
 const VERSION_ORDER = ["1st", "Zero", "NX", "NXA", "Fiesta", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix"];
 const MODE_LABEL: Record<string, string> = { Single: "Single", Double: "Double", CoOp: "Co-Op" };
 const MODE_ORDER = ["Single", "Double", "CoOp"];
+// Each by-difficulty level opens with a "<MODE> RANDOM <lvl>" play option (arcade #1).
+const MODE_RANDOM: Record<string, string> = { Single: "SINGLE", Double: "DOUBLE", CoOp: "CO-OP" };
+
+// Arcade song-selection categories, in the order the arcade lists them.
+const GENRE_ORDER = ["K-POP", "ORIGINAL", "WORLD", "JMUSIC", "XROSS"];
+const GENRE_LABEL: Record<string, string> = {
+  "K-POP": "K-POP",
+  ORIGINAL: "Original",
+  WORLD: "World Music",
+  JMUSIC: "J-Music",
+  XROSS: "XROSS",
+};
 
 interface FlatChart {
   song: AppSong;
@@ -57,6 +70,10 @@ const versionsPresent = VERSION_ORDER.filter((v) => data.songs.some((s) => s.deb
 const songsByVersion: Record<string, AppSong[]> = {};
 for (const v of versionsPresent) songsByVersion[v] = data.songs.filter((s) => s.debutVersion === v);
 
+const titleCats = data.titles ?? [];
+const titlesByKey: Record<string, AppTitle[]> = {};
+for (const c of titleCats) titlesByKey[c.key] = c.titles;
+
 const chartsByStepmaker: Record<string, FlatChart[]> = {};
 for (const fc of allCharts) {
   const sm = fc.chart.stepmaker;
@@ -86,6 +103,8 @@ type Screen =
   | { k: "stepmakerCharts"; maker: string }
   | { k: "variants" }
   | { k: "variantSongs"; variant: string }
+  | { k: "titles" }
+  | { k: "titleList"; cat: string }
   | { k: "song"; id: string };
 
 export default function App() {
@@ -163,6 +182,10 @@ function screenTitle(s: Screen): string {
       return "Edições especiais";
     case "variantSongs":
       return VARIANT_LABEL[s.variant] ?? s.variant;
+    case "titles":
+      return "Titles";
+    case "titleList":
+      return titleCats.find((c) => c.key === s.cat)?.label ?? s.cat;
     default:
       return "";
   }
@@ -198,7 +221,16 @@ function Body({
     case "diffLevels":
       return <DiffLevels mode={screen.mode} push={push} bottom={bottom} />;
     case "diffCharts":
-      return <ChartList items={chartsByModeLevel[`${screen.mode}|${screen.level}`] ?? []} push={push} bottom={bottom} sortByPos />;
+      return (
+        <ChartList
+          items={chartsByModeLevel[`${screen.mode}|${screen.level}`] ?? []}
+          push={push}
+          bottom={bottom}
+          groupByGenre
+          randomMode={screen.mode}
+          randomLevel={screen.level}
+        />
+      );
     case "versions":
       return <Versions push={push} bottom={bottom} />;
     case "versionSongs":
@@ -210,7 +242,11 @@ function Body({
     case "variants":
       return <VariantModes push={push} />;
     case "variantSongs":
-      return <SongList songs={songsByVariant[screen.variant] ?? []} push={push} bottom={bottom} />;
+      return <SongList songs={songsByVariant[screen.variant] ?? []} push={push} bottom={bottom} numbered />;
+    case "titles":
+      return <TitlesMenu push={push} bottom={bottom} />;
+    case "titleList":
+      return <TitlesList titles={titlesByKey[screen.cat] ?? []} push={push} bottom={bottom} />;
     case "song": {
       const song = songById.get(screen.id);
       return song ? <Detail song={song} bottom={bottom} /> : null;
@@ -228,6 +264,7 @@ function Home({ onNavigate, bottom }: { onNavigate: (s: Screen) => void; bottom:
     { screen: { k: "versions" }, icon: "🕹️", label: "Por versão", sub: "XX, Prime, Fiesta…", accent: "#247a4a" },
     { screen: { k: "stepmakers" }, icon: "👤", label: "Por stepmaker", sub: "Ordenado por nº de charts", accent: "#9a7d1f" },
     { screen: { k: "variants" }, icon: "💿", label: "Edições especiais", sub: "Remix · Short Cut · Full Song", accent: "#7a4fd0" },
+    { screen: { k: "titles" }, icon: "🏆", label: "Titles", sub: "Como conseguir cada title", accent: "#c7892b" },
   ];
   return (
     <ScrollView contentContainerStyle={[styles.homePad, { paddingBottom: bottom + 24 }]}>
@@ -338,6 +375,57 @@ function VariantModes({ push }: { push: (s: Screen) => void }) {
   );
 }
 
+// ---------- Titles ----------
+function TitlesMenu({ push, bottom }: { push: (s: Screen) => void; bottom: number }) {
+  return (
+    <ScrollView contentContainerStyle={[styles.pad, { paddingBottom: bottom + 24 }]}>
+      {titleCats.map((c) => (
+        <Pressable key={c.key} style={[styles.bigBtn, styles.rowTitleCat]} onPress={() => push({ k: "titleList", cat: c.key })}>
+          <Text style={styles.bigBtnText}>{c.label}</Text>
+          <View style={styles.bigBtnRight}>
+            <Text style={styles.bigBtnCount}>{c.titles.length}</Text>
+            <Text style={styles.bigBtnChevron}>›</Text>
+          </View>
+        </Pressable>
+      ))}
+    </ScrollView>
+  );
+}
+
+function TitlesList({ titles, push, bottom }: { titles: AppTitle[]; push: (s: Screen) => void; bottom: number }) {
+  return (
+    <FlatList
+      data={titles}
+      keyExtractor={(t, i) => `${t.name}_${i}`}
+      contentContainerStyle={{ paddingBottom: bottom + 12 }}
+      renderItem={({ item }) => {
+        const mode = item.chartLabel.startsWith("D") ? "double" : "single";
+        const song = item.songId ? songById.get(item.songId) : undefined;
+        const open = item.songId ? () => push({ k: "song", id: item.songId! }) : undefined;
+        return (
+          <Pressable style={styles.row} onPress={open} disabled={!open}>
+            <Thumb id={item.songId ?? ""} size={48} radius={8} />
+            <View style={[styles.flex, styles.rowText]}>
+              <Text style={styles.rowTitle} numberOfLines={1}>
+                {item.name}
+              </Text>
+              <Text style={styles.rowMeta} numberOfLines={1}>
+                {song?.title ?? item.songTitle}
+              </Text>
+              <Text style={styles.titleReq} numberOfLines={2}>
+                {item.requirement}
+              </Text>
+            </View>
+            <View style={[styles.diffBadge, modeRowStyle(mode)]}>
+              <Text style={styles.diffBadgeText}>{item.chartLabel}</Text>
+            </View>
+          </Pressable>
+        );
+      }}
+    />
+  );
+}
+
 // ---------- By version ----------
 function Versions({ push, bottom }: { push: (s: Screen) => void; bottom: number }) {
   return (
@@ -373,14 +461,46 @@ function Stepmakers({ push, bottom }: { push: (s: Screen) => void; bottom: numbe
 }
 
 // ---------- shared lists ----------
-function SongList({ songs, push, bottom }: { songs: AppSong[]; push: (s: Screen) => void; bottom: number }) {
+function SongList({
+  songs,
+  push,
+  bottom,
+  numbered,
+}: {
+  songs: AppSong[];
+  push: (s: Screen) => void;
+  bottom: number;
+  numbered?: boolean;
+}) {
   return (
     <FlatList
       data={songs}
       keyExtractor={(s) => s.id}
       contentContainerStyle={{ paddingBottom: bottom + 12 }}
-      renderItem={({ item }) => <SongRow song={item} onPress={() => push({ k: "song", id: item.id })} />}
+      renderItem={({ item, index }) => (
+        <SongRow song={item} onPress={() => push({ k: "song", id: item.id })} badge={numbered ? `#${index + 1}` : undefined} />
+      )}
     />
+  );
+}
+
+function ChartRow({ item, push, badge }: { item: FlatChart; push: (s: Screen) => void; badge: string }) {
+  return (
+    <Pressable style={styles.row} onPress={() => push({ k: "song", id: item.song.id })}>
+      <Thumb id={item.song.id} size={48} radius={8} />
+      <View style={[styles.flex, styles.rowText]}>
+        <Text style={styles.rowTitle} numberOfLines={1}>
+          {item.song.title}
+        </Text>
+        <Text style={styles.rowMeta}>
+          {item.song.debutVersion}
+          {item.chart.stepmaker ? ` · ${item.chart.stepmaker}` : ""}
+        </Text>
+      </View>
+      <View style={[styles.diffBadge, modeRowStyle(item.chart.mode)]}>
+        <Text style={styles.diffBadgeText}>{badge}</Text>
+      </View>
+    </Pressable>
   );
 }
 
@@ -390,44 +510,97 @@ function ChartList({
   bottom,
   showLabel,
   sortByPos,
+  groupByGenre,
+  randomMode,
+  randomLevel,
 }: {
   items: FlatChart[];
   push: (s: Screen) => void;
   bottom: number;
   showLabel?: boolean;
   sortByPos?: boolean;
+  groupByGenre?: boolean;
+  randomMode?: string;
+  randomLevel?: number;
 }) {
-  const list = useMemo(
-    () => (sortByPos ? [...items].sort((a, b) => levelPos(a.chart) - levelPos(b.chart)) : items),
-    [items, sortByPos],
-  );
+  // #1 in every arcade level is a "<MODE> RANDOM <lvl>" play option.
+  const randomLabel =
+    randomMode != null && randomLevel != null
+      ? `${MODE_RANDOM[randomMode] ?? randomMode.toUpperCase()} RANDOM ${String(randomLevel).padStart(2, "0")}`
+      : null;
+
+  // By-difficulty view: group by the arcade category (K-Pop, Original, World,
+  // J-Music, XROSS), keeping the version/release order inside each group.
+  const sections = useMemo(() => {
+    if (!groupByGenre) return null;
+    const byGenre: Record<string, FlatChart[]> = {};
+    for (const fc of items) (byGenre[fc.song.category] ??= []).push(fc);
+    // Arcade order inside a category: newest version first, then release order
+    // (oldest first) within the same version.
+    const cmp = (a: FlatChart, b: FlatChart) => {
+      const va = VERSION_ORDER.indexOf(a.song.debutVersion);
+      const vb = VERSION_ORDER.indexOf(b.song.debutVersion);
+      if (va !== vb) return vb - va;
+      return a.song.releaseIndex - b.song.releaseIndex;
+    };
+    // Number the rows 1..N continuously; the RANDOM option (if any) takes #1.
+    let n = randomLabel ? 1 : 0;
+    return GENRE_ORDER.filter((g) => byGenre[g]?.length).map((g) => ({
+      title: GENRE_LABEL[g] ?? g,
+      data: byGenre[g].sort(cmp).map((fc) => ({ ...fc, seq: ++n })),
+    }));
+  }, [items, groupByGenre, randomLabel]);
+
+  if (sections) {
+    return (
+      <SectionList
+        sections={sections}
+        keyExtractor={(fc) => fc.chart.id}
+        stickySectionHeadersEnabled
+        contentContainerStyle={{ paddingBottom: bottom + 12 }}
+        ListHeaderComponent={
+          randomLabel ? (
+            <View style={styles.row}>
+              <View style={[styles.thumbPlaceholder, styles.randomThumb]}>
+                <Text style={styles.randomDice}>🎲</Text>
+              </View>
+              <View style={[styles.flex, styles.rowText]}>
+                <Text style={styles.rowTitle} numberOfLines={1}>
+                  {randomLabel}
+                </Text>
+                <Text style={styles.rowMeta}>Chart aleatório</Text>
+              </View>
+              <View style={[styles.diffBadge, modeRowStyle(randomMode)]}>
+                <Text style={styles.diffBadgeText}>#1</Text>
+              </View>
+            </View>
+          ) : null
+        }
+        renderSectionHeader={({ section }) => (
+          <View style={styles.genreHeader}>
+            <Text style={styles.genreHeaderText}>{section.title}</Text>
+            <Text style={styles.genreHeaderCount}>{section.data.length}</Text>
+          </View>
+        )}
+        renderItem={({ item }) => <ChartRow item={item} push={push} badge={`#${item.seq}`} />}
+      />
+    );
+  }
+
+  const list = sortByPos ? [...items].sort((a, b) => levelPos(a.chart) - levelPos(b.chart)) : items;
   return (
     <FlatList
       data={list}
       keyExtractor={(fc) => fc.chart.id}
       contentContainerStyle={{ paddingBottom: bottom + 12 }}
       renderItem={({ item }) => (
-        <Pressable style={styles.row} onPress={() => push({ k: "song", id: item.song.id })}>
-          <Thumb id={item.song.id} size={48} radius={8} />
-          <View style={[styles.flex, styles.rowText]}>
-            <Text style={styles.rowTitle} numberOfLines={1}>
-              {item.song.title}
-            </Text>
-            <Text style={styles.rowMeta}>
-              {item.song.debutVersion}
-              {item.chart.stepmaker ? ` · ${item.chart.stepmaker}` : ""}
-            </Text>
-          </View>
-          <View style={[styles.diffBadge, modeRowStyle(item.chart.mode)]}>
-            <Text style={styles.diffBadgeText}>{showLabel ? item.chart.label : `#${levelPos(item.chart)}`}</Text>
-          </View>
-        </Pressable>
+        <ChartRow item={item} push={push} badge={showLabel ? item.chart.label : `#${levelPos(item.chart)}`} />
       )}
     />
   );
 }
 
-function SongRow({ song, onPress }: { song: AppSong; onPress: () => void }) {
+function SongRow({ song, onPress, badge }: { song: AppSong; onPress: () => void; badge?: string }) {
   return (
     <Pressable style={styles.row} onPress={onPress}>
       <Thumb id={song.id} size={48} radius={8} />
@@ -440,7 +613,7 @@ function SongRow({ song, onPress }: { song: AppSong; onPress: () => void }) {
           {song.artist ? ` · ${song.artist}` : ""}
         </Text>
       </View>
-      <Text style={styles.badge}>#{song.releaseIndex}</Text>
+      <Text style={styles.badge}>{badge ?? `#${song.releaseIndex}`}</Text>
     </Pressable>
   );
 }
@@ -625,11 +798,29 @@ const styles = StyleSheet.create({
   diffBadge: { borderRadius: 8, paddingHorizontal: 10, paddingVertical: 6, minWidth: 46, alignItems: "center" },
   diffBadgeText: { color: "#fff", fontSize: 14, fontWeight: "800" },
 
+  // genre section headers (by-difficulty grouping)
+  genreHeader: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    backgroundColor: "#15161d",
+    paddingHorizontal: 16,
+    paddingVertical: 8,
+    borderBottomWidth: StyleSheet.hairlineWidth,
+    borderBottomColor: "#2a2d3a",
+  },
+  genreHeaderText: { color: "#c7ccda", fontSize: 13, fontWeight: "800", letterSpacing: 1, textTransform: "uppercase" },
+  genreHeaderCount: { color: "#7a7f8c", fontSize: 12, fontWeight: "700" },
+
   // mode colors
   rowSingle: { backgroundColor: "#9e3340" },
   rowDouble: { backgroundColor: "#247a4a" },
   rowCoop: { backgroundColor: "#9a7d1f" },
   rowVariant: { backgroundColor: "#5d4b9e" },
+  rowTitleCat: { backgroundColor: "#7a5a2e" },
+  titleReq: { color: "#d8a85a", fontSize: 12, fontWeight: "600", marginTop: 3 },
+  randomThumb: { width: 48, height: 48, borderRadius: 8, alignItems: "center", justifyContent: "center" },
+  randomDice: { fontSize: 24 },
 
   // detail
   detail: { padding: 16 },

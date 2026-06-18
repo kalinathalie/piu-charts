@@ -1,0 +1,300 @@
+# PIU Phoenix — Titles (achievements) and how to get them.
+# Format: pairs of lines. First line = title (optionally "[CATEGORY] name");
+# second line = "[<Song> <S|D><level>] <requirement>". Blank lines separate pairs.
+# Categories BRACKET/HALF/GIMMICK/DRILL/RUN/TWIST are skill titles; a version tag
+# (XX, PRIME, ...) with "Boss breaker" groups under Boss Breaker; bracket-less
+# headers (Perfect breaker, ...) are Especiais. Edit freely; re-run build:appdata.
+
+[BRACKET] Lv.10
+[Phalanx D24] SSS Grade or more
+
+[BRACKET] Lv.9
+[Scorpion King D23] SSS Grade or more
+
+[BRACKET] Lv.8
+[Pop Sequence D23] SSS Grade or more
+
+[BRACKET] Lv.7
+[What Happened D23] SSS Grade or more
+
+[BRACKET] Lv.6
+[Meteo5cience D22] SSS Grade or more
+
+[BRACKET] Lv.5
+[Phalanx S22] SSS Grade or more
+
+[BRACKET] Lv.4
+[What Happened S21] SSS Grade or more
+
+[BRACKET] Lv.3
+[Meteo5cience S21] SSS Grade or more
+
+[BRACKET] Lv.2
+[Mad5cience S20] SSS Grade or more
+
+[BRACKET] Lv.1
+[Allegro furioso D20] SSS Grade or more
+
+[HALF] Lv.10
+[Imprinting D24] SSS Grade or more
+
+[HALF] Lv.9
+[Love is a Danger Zone 2 Try To B.P.M D23] SSS Grade or more
+
+[HALF] Lv.8
+[Redline D22] SSS Grade or more
+
+[HALF] Lv.7
+[Witch Doctor #1 D21] SSS Grade or more
+
+[HALF] Lv.6
+[Utsushiyo No Kaze D20] SSS Grade or more
+
+[HALF] Lv.5
+[Phantom D19] SSS Grade or more
+
+[HALF] Lv.4
+[Super Fantasy D18] SSS Grade or more
+
+[HALF] Lv.3
+[Shub Niggurath D18] SSS Grade or more
+
+[HALF] Lv.2
+[Butterfly D17] SSS Grade or more
+
+[HALF] Lv.1
+[Mopemope D17] SSS Grade or more
+
+[GIMMICK] Lv.10
+[Everybody Got 2 Know S21] SSS Grade or more
+
+[GIMMICK] Lv.9
+[8 6 S20] SSS Grade or more
+
+[GIMMICK] Lv.8
+[Twist of Fate S19] SSS Grade or more
+
+[GIMMICK] Lv.7
+[Nakakapagpabagabag S19] SSS Grade or more
+
+[GIMMICK] Lv.6
+[Miss S' story S19] SSS Grade or more
+
+[GIMMICK] Lv.5
+[Rock the house - SHORT CUT - S18] SSS Grade or more
+
+[GIMMICK] Lv.4
+[Come to Me S17] SSS Grade or more
+
+[GIMMICK] Lv.3
+[Ugly Dee S17] SSS Grade or more
+
+[GIMMICK] Lv.2
+[8 6 S16] SSS Grade or more
+
+[GIMMICK] Lv.1
+[Yeo rae a S13] SSS Grade or more
+
+[DRILL] Lv.10
+[WI-EX-DOC-VA D24] SSS Grade or more
+
+[DRILL] Lv.9
+[Witch Doctor D23] SSS Grade or more
+
+[DRILL] Lv.8
+[Rock the house D22] SSS Grade or more
+
+[DRILL] Lv.7
+[Sorceress Elise S21] SSS Grade or more
+
+[DRILL] Lv.6
+[Overblow S20] SSS Grade or more
+
+[DRILL] Lv.5
+[Vacuum S19] SSS Grade or more
+
+[DRILL] Lv.4
+[Moonlight S18] SSS Grade or more
+
+[DRILL] Lv.3
+[Gun Rock S17] SSS Grade or more
+
+[DRILL] Lv.2
+[Vook S16] SSS Grade or more
+
+[DRILL] Lv.1
+[Hellfire S15] SSS Grade or more
+
+[RUN] Lv.10
+[Yog-Sothoth D24] SSS Grade or more
+
+[RUN] Lv.9
+[Baroque Virus - FULL SONG - D23] SSS Grade or more
+
+[RUN] Lv.8
+[Gargoyle - FULL SONG - D22] SSS Grade or more
+
+[RUN] Lv.7
+[Sarabande D21] SSS Grade or more
+
+[RUN] Lv.6
+[Bee D20] SSS Grade or more
+
+[RUN] Lv.5
+[Napalm S19] SSS Grade or more
+
+[RUN] Lv.4
+[Gothique Resonance S18] SSS Grade or more
+
+[RUN] Lv.3
+[Pavane S17] SSS Grade or more
+
+[RUN] Lv.2
+[Super Fantasy S16] SSS Grade or more
+
+[RUN] Lv.1
+[Switronic S15] SSS Grade or more
+
+[TWIST] Lv.10
+[Bee D24] SSS Grade or more
+
+[TWIST] Lv.9
+[Love Is A Danger Zone(Cranky Mix) D23] SSS Grade or more
+
+[TWIST] Lv.8
+[Super Fantasy D22] SSS Grade or more
+
+[TWIST] Lv.7
+[Love is a Danger Zone D21] SSS Grade or more
+
+[TWIST] Lv.6
+[Witch Doctor #1 D20] SSS Grade or more
+
+[TWIST] Lv.5
+[U GOT 2 KNOW S19] SSS Grade or more
+
+[TWIST] Lv.4
+[Solitary 2 S18] SSS Grade or more
+
+[TWIST] Lv.3
+[U Got Me Rocking S17] SSS Grade or more
+
+[TWIST] Lv.2
+[Street show down S16] SSS Grade or more
+
+[TWIST] Lv.1
+[Scorpion King S15] SSS Grade or more
+
+[XX] Double Boss breaker
+[1949 D28] ROUGH GAME or more
+
+[XX] Single Boss breaker
+[ERRORCODE: 0 S25] ROUGH GAME or more
+
+[PRIME2] Double Boss breaker
+[Shub Sothoth D27] ROUGH GAME or more
+
+[PRIME2] Single Boss breaker
+[Shub Sothoth S25] ROUGH GAME or more
+
+[PRIME] Double Boss breaker
+[Paradoxx D28] ROUGH GAME or more
+
+[PRIME] Single Boss breaker
+[Paradoxx S26] ROUGH GAME or more
+
+[FIESTA2] Double Boss breaker
+[Ignis Fatuus D25] ROUGH GAME or more
+
+[FIESTA2] Single Boss breaker
+[Ignis Fatuus S22] ROUGH GAME or more
+
+[FIESTA EX] Double Boss breaker
+[Vacuum Cleaner D26] ROUGH GAME or more
+
+[FIESTA EX] Single Boss breaker
+[Vacuum Cleaner S25] ROUGH GAME or more
+
+[FIESTA] Double Boss breaker
+[Vacuum D25] ROUGH GAME or more
+
+[FIESTA] Single Boss breaker
+[Vacuum S23] ROUGH GAME or more
+
+[NXA] Double Boss breaker
+[Final Audition Ep. 2-X D24] ROUGH GAME or more
+
+[NXA] Single Boss breaker
+[Final Audition Ep. 2-X S23] ROUGH GAME or more
+
+[NX2] Double Boss breaker
+[Banya-P Guitar Remix D24] ROUGH GAME or more
+
+[NX2] Single Boss breaker
+[Banya-P Guitar Remix S22] ROUGH GAME or more
+
+[NX] Double Boss breaker
+[BEMERA D26] ROUGH GAME or more
+
+[NX] Single Boss breaker
+[BEMERA S24] ROUGH GAME or more
+
+[ZERO] Double Boss breaker
+[Love is a Danger Zone pt. 2 D24] ROUGH GAME or more
+
+[ZERO] Single Boss breaker
+[Love is a Danger Zone pt. 2 S22] ROUGH GAME or more
+
+[EXCEED2] Double Boss breaker
+[Canon D D23] ROUGH GAME or more
+
+[EXCEED2] Single Boss breaker
+[Canon D S20] ROUGH GAME or more
+
+[EXCEED] Double Boss breaker
+[Dignity D24] ROUGH GAME or more
+
+[EXCEED] Single Boss breaker
+[Dignity S21] ROUGH GAME or more
+
+[THE PREX3] Boss breaker
+[Bee S17] ROUGH GAME or more
+
+[THE REBIRTH] Boss breaker
+[Love is a Danger Zone S17] ROUGH GAME or more
+
+[EXTRA] Boss breaker
+[Radetzky Can Can D18] ROUGH GAME or more
+
+[Perfect Collection] Boss breaker
+[Slam S18] ROUGH GAME or more
+
+[The O.B.G SE] Boss breaker
+[Mr. Larpus S15] ROUGH GAME or more
+
+[The O.B.G] Boss breaker
+[Turkey March S12] ROUGH GAME or more
+
+[The 2nd] Boss breaker
+[Extravaganza S11] ROUGH GAME or more
+
+[The 1st] Boss breaker
+[Another Truth S6] ROUGH GAME or more
+
+Perfect breaker
+[Gargoyle - FULL SONG - S21] 444,444 Point or less
+
+Human metronome
+[Yeo rae a S1] 180,000 Point or less
+
+NO SKILLS NO PUMP
+[Moonlight D21] SSS+ Grade or more
+
+PUMP IS A SENSE
+[Love is a Danger Zone D21] SSS+ Grade or more
+
+B.P.M FOLLOWER
+[Beethoven Virus D18] Perfect 927 / Great 1 / Miss 2 / Max Combo 747
+
+DOGE MAJOR STOCKHOLDER
+[Waltz of Doge D20] Max Combo of 888

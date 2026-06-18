@@ -7,3 +7,6 @@ node_modules/
 
 # downloaded ingestion caches (regenerable via npm run ingest:*)
 .cache/
+
+# scratch drop folder for manual cover imports (npm run import:covers)
+incoming/

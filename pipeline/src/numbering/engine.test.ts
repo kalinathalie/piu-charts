@@ -4,7 +4,7 @@ import { deriveCategories } from "./categories";
 import type { Dataset, Song, Chart } from "../model/types";
 
 const song = (id: string, releaseIndex: number, debutVersion: Song["debutVersion"] = "Prime"): Song => ({
-  id, title: id, titleNormalized: id, artist: "a", bpmMin: 100, bpmMax: 100, debutVersion, releaseIndex,
+  id, title: id, titleNormalized: id, artist: "a", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion, releaseIndex,
 });
 const chart = (id: string, songId: string, mode: Chart["mode"], level: number): Chart => ({
   id, songId, mode, level, types: [], typesSource: "auto",

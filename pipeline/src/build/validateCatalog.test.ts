@@ -6,8 +6,8 @@ describe("validateCatalog", () => {
   it("flags duplicate song ids, dangling chart refs and bad levels", () => {
     const ds: Dataset = {
       songs: [
-        { id: "a", title: "A", titleNormalized: "a", artist: "", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 },
-        { id: "a", title: "A2", titleNormalized: "a2", artist: "", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 },
+        { id: "a", title: "A", titleNormalized: "a", artist: "", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 },
+        { id: "a", title: "A2", titleNormalized: "a2", artist: "", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 },
       ],
       charts: [
         { id: "c1", songId: "ghost", mode: "Single", level: 16, types: [], typesSource: "manual" },
@@ -22,7 +22,7 @@ describe("validateCatalog", () => {
 
   it("returns no errors for a clean catalog", () => {
     const ds: Dataset = {
-      songs: [{ id: "a", title: "A", titleNormalized: "a", artist: "", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 }],
+      songs: [{ id: "a", title: "A", titleNormalized: "a", artist: "", category: "ORIGINAL", bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0 }],
       charts: [{ id: "c1", songId: "a", mode: "Single", level: 16, types: [], typesSource: "manual" }],
     };
     expect(validateCatalog(ds)).toEqual([]);

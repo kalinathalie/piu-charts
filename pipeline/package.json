@@ -13,8 +13,10 @@
     "ingest:pumpproplus": "tsx scripts/ingest-pumpproplus.ts",
     "ingest:namu": "tsx scripts/ingest-namu.ts",
     "ingest:base": "tsx scripts/ingest-base.ts",
+    "ingest:categories": "tsx scripts/build-categories.ts",
     "ingest:manual": "tsx scripts/apply-manual-charts.ts",
     "fetch:thumbs": "tsx scripts/fetch-thumbs.ts",
+    "import:covers": "tsx scripts/import-covers.ts",
     "canonicalize:titles": "tsx scripts/canonicalize-titles.ts",
     "report:unmatched": "tsx scripts/unmatched-report.ts",
     "spike:order": "tsx scripts/spike-order.ts"

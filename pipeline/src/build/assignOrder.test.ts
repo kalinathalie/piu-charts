@@ -3,7 +3,7 @@ import { assignReleaseIndex, applyOrder } from "./assignOrder";
 import type { Dataset, Song } from "../model/types";
 
 const song = (id: string): Song => ({
-  id, title: id, titleNormalized: id, artist: "a",
+  id, title: id, titleNormalized: id, artist: "a", category: "ORIGINAL",
   bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex: 0,
 });
 

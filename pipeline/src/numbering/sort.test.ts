@@ -3,7 +3,7 @@ import { compareCharts, compareSongs } from "./sort";
 import type { Song, Chart } from "../model/types";
 
 const song = (id: string, releaseIndex: number): Song => ({
-  id, title: id, titleNormalized: id, artist: "a",
+  id, title: id, titleNormalized: id, artist: "a", category: "ORIGINAL",
   bpmMin: 100, bpmMax: 100, debutVersion: "Prime", releaseIndex,
 });
 

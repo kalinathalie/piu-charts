@@ -8,6 +8,15 @@ export type Version =
   | "1st" | "Zero" | "NX" | "NXA"
   | "Fiesta" | "Fiesta2" | "Prime" | "Prime2" | "XX" | "Phoenix";
 
+/**
+ * Arcade song-selection category (genre tab), in the order the arcade lists them.
+ * Drives the grouping of the by-difficulty views.
+ */
+export type Genre = "K-POP" | "ORIGINAL" | "WORLD" | "JMUSIC" | "XROSS";
+
+/** Arcade category order: K-Pop, Original, World Music, J-Music, XROSS. */
+export const GENRE_ORDER: Genre[] = ["K-POP", "ORIGINAL", "WORLD", "JMUSIC", "XROSS"];
+
 /** Special editions kept out of the per-level ranking and shown separately. */
 export type SongVariant = "REMIX" | "SHORTCUT" | "FULLSONG";
 
@@ -20,6 +29,8 @@ export interface Song {
   bpmMin: number;
   bpmMax: number;
   debutVersion: Version;
+  /** Arcade song-selection category (genre tab). Defaults to "ORIGINAL". */
+  category: Genre;
   /** Global release ordinal (1-based). Assigned by the order pipeline. */
   releaseIndex: number;
   /** Set when the title marks a Remix / Short Cut / Full Song edition. */
