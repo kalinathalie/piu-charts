@@ -18,6 +18,6 @@
       "bundler": "metro",
       "favicon": "./assets/icon.png"
     },
-    "plugins": ["./plugins/withGradleVersion"]
+    "plugins": ["./plugins/withGradleVersion", "expo-camera"]
   }
 }
