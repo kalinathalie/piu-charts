@@ -6,8 +6,7 @@ name: Deploy web app to piucharts.github.io
 # own kalinathalie.github.io site. One-time setup: create the piucharts org +
 # the empty piucharts.github.io repo + a PIUCHARTS_PAGES_TOKEN secret on this
 # repo (fine-grained PAT, approved in the org's PAT settings) — see README.md.
-# (Tip: this workflow also supports workflow_dispatch — you can re-run it from
-# the Actions tab without needing a new commit.)
+# Tip: re-run anytime from the Actions tab (workflow_dispatch) — no new commit needed.
 on:
   push:
     branches: [master]
