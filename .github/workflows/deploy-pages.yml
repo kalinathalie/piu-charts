@@ -3,9 +3,9 @@ name: Deploy web app to piucharts.github.io
 # Publishes the web build to an EXTERNAL repo (piucharts/piucharts.github.io)
 # instead of this repo's own GitHub Pages, so the site gets a clean root URL
 # (https://piucharts.github.io/) fully separate from the personal account's
-# own kalinathalie.github.io site. One-time setup required — see README.md's
-# "Web / piucharts.github.io" section (create the piucharts org + the empty
-# piucharts.github.io repo + a PIUCHARTS_PAGES_TOKEN secret on this repo).
+# own kalinathalie.github.io site. One-time setup: create the piucharts org +
+# the empty piucharts.github.io repo + a PIUCHARTS_PAGES_TOKEN secret on this
+# repo (fine-grained PAT, approved in the org's PAT settings) — see README.md.
 on:
   push:
     branches: [master]
