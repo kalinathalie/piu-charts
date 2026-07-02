@@ -572,7 +572,13 @@ function ChartList({
         contentContainerStyle={{ paddingBottom: bottom + 12 }}
         ListHeaderComponent={
           randomLabel ? (
-            <View style={styles.row}>
+            <Pressable
+              style={styles.row}
+              onPress={() => {
+                const fc = items[Math.floor(Math.random() * items.length)];
+                if (fc) push({ k: "song", id: fc.song.id });
+              }}
+            >
               <View style={[styles.thumbPlaceholder, styles.randomThumb]}>
                 <Text style={styles.randomDice}>🎲</Text>
               </View>
@@ -585,7 +591,7 @@ function ChartList({
               <View style={[styles.diffBadge, modeRowStyle(randomMode)]}>
                 <Text style={styles.diffBadgeText}>#1</Text>
               </View>
-            </View>
+            </Pressable>
           ) : null
         }
         renderSectionHeader={({ section }) => (
