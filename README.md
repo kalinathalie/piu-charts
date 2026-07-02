@@ -4,7 +4,9 @@
 
 `Expo` · `React Native` · `TypeScript` · **Phoenix 2.12** · **638 músicas / 4579 charts / 98 titles**
 
-Feito pra ter na mão, no celular, sem internet: todos os dados (músicas, charts, capas) ficam embutidos no app.
+🔗 **[Abrir no navegador](https://piucharts.github.io/)** — a mesma app roda direto pelo site, sem instalar nada (deploy automático a cada push). Também tem o **APK** pra Android, veja [`app/BUILD_ANDROID.md`](app/BUILD_ANDROID.md).
+
+Feito pra ter na mão, no celular ou no navegador, sem internet depois de carregado: todos os dados (músicas, charts, capas) ficam embutidos no app — nada é buscado num servidor.
 
 ---
 
@@ -18,7 +20,7 @@ Feito pra ter na mão, no celular, sem internet: todos os dados (músicas, chart
 - 🏆 **Titles** — como conseguir cada *title* (Bracket, Twist, Run, Drill, Half, Gimmick, Boss Breaker e especiais), com o chart e o requisito; toca pra abrir a música.
 - 🎵 **Detalhe da música** — "onde achar no arcade" (posição/total por versão e geral), charts coloridos por modo (Single 🔴 / Double 🟢 / Co-Op 🟡) com link do **vídeo no YouTube** por chart.
 - 🖼️ **Capa pra todas as 638 músicas**.
-- 📴 **100% offline.**
+- 📴 **100% offline** (Android) · 🌐 **funciona no navegador** — mesma estrutura, layout responsivo (mobile edge-to-edge; telas largas de desktop centralizam a app numa coluna, como um "app dentro do navegador").
 
 ---
 
@@ -62,6 +64,22 @@ npm run web        # abre no navegador (Expo Web)
 ### Gerar o APK (Android)
 Passo a passo em [`app/BUILD_ANDROID.md`](app/BUILD_ANDROID.md) (Android Studio ou `gradlew`, com as pegadinhas de Gradle/JDK/SDK já documentadas).
 
+### Web / `piucharts.github.io`
+O site roda numa **organização própria do GitHub** (`piucharts`), separada da conta pessoal — o código deste repositório continua exatamente aqui (`kalinathalie/piu-charts`); só o *build* estático é publicado lá.
+
+```bash
+cd app
+npm run export:web   # build estático em app/dist (sempre com base path "/", já que é um site raiz)
+```
+
+**Setup único (uma vez só):**
+1. Crie uma organização gratuita no GitHub chamada **`piucharts`** ([github.com/account/organizations/new](https://github.com/account/organizations/new)).
+2. Dentro dela, crie um repositório **vazio** chamado exatamente **`piucharts.github.io`** (público, branch padrão `main`) — o nome precisa bater com o da org pra virar site raiz (`https://piucharts.github.io/`, sem subpasta).
+3. Gere um **fine-grained personal access token** ([github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)) com *Resource owner* = `piucharts`, acesso só ao repositório `piucharts.github.io`, permissão **Contents: Read and write**.
+4. Adicione esse token como secret **neste** repositório (`kalinathalie/piu-charts`): **Settings → Secrets and variables → Actions → New repository secret**, nome `PIUCHARTS_PAGES_TOKEN`.
+
+Feito isso, todo push em `master` que toca `app/` roda o [workflow](.github/workflows/deploy-pages.yml) e publica automaticamente em `https://piucharts.github.io/` (sem o secret configurado, o workflow só pula essa etapa sem erro). Deploy manual, sem esperar o Actions: `npm run deploy:piucharts` (usa `gh-pages` via `npx`, publica direto na branch `main` do repo externo — precisa das suas credenciais git normais, não do token acima).
+
 ### Regenerar os dados (pipeline)
 ```bash
 cd pipeline
@@ -79,15 +97,17 @@ npm test                   # vitest
 
 ```
 pump/
-├─ app/                 # Expo / React Native (UI)
-│  ├─ App.tsx           # toda a navegação e telas
+├─ app/                    # Expo / React Native (UI)
+│  ├─ App.tsx              # toda a navegação, telas e layout responsivo
+│  ├─ app.json             # config do Expo (nome, ícone, pacote Android…)
 │  ├─ assets/
-│  │  ├─ app-data.json  # dados pré-computados (bundle)
-│  │  └─ thumbs/        # capas 256px
-│  └─ BUILD_ANDROID.md  # como gerar o APK
-├─ pipeline/            # build dos dados (Node + TS)
-│  ├─ catalog/          # fonte de verdade (songlist, metadata, categorias, titles)
-│  └─ src/ · scripts/   # parsing, numeração, ingests
+│  │  ├─ app-data.json     # dados pré-computados (bundle)
+│  │  └─ thumbs/           # capas 256px
+│  └─ BUILD_ANDROID.md     # como gerar o APK
+├─ pipeline/               # build dos dados (Node + TS)
+│  ├─ catalog/             # fonte de verdade (songlist, metadata, categorias, titles)
+│  └─ src/ · scripts/      # parsing, numeração, ingests
+├─ .github/workflows/      # deploy automático pro piucharts.github.io
 └─ README.md
 ```
 

@@ -7,7 +7,9 @@
     "start": "expo start",
     "android": "expo run:android",
     "web": "expo start --web",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "export:web": "expo export -p web",
+    "deploy:piucharts": "npm run export:web && node -e \"require('fs').writeFileSync('dist/.nojekyll','')\" && npx gh-pages -d dist -b main -t --repo https://github.com/piucharts/piucharts.github.io.git"
   },
   "dependencies": {
     "@expo/metro-runtime": "~56.0.15",

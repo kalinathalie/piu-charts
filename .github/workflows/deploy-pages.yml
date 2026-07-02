@@ -1,0 +1,63 @@
+name: Deploy web app to piucharts.github.io
+
+# Publishes the web build to an EXTERNAL repo (piucharts/piucharts.github.io)
+# instead of this repo's own GitHub Pages, so the site gets a clean root URL
+# (https://piucharts.github.io/) fully separate from the personal account's
+# own kalinathalie.github.io site. One-time setup required — see README.md's
+# "Web / piucharts.github.io" section (create the piucharts org + the empty
+# piucharts.github.io repo + a PIUCHARTS_PAGES_TOKEN secret on this repo).
+on:
+  push:
+    branches: [master]
+    paths:
+      - "app/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    # GitHub Actions doesn't support referencing `secrets` directly in a step
+    # `if:` condition — map it to a job-level env var first (documented
+    # pattern), then test that below instead.
+    env:
+      HAS_PAGES_TOKEN: ${{ secrets.PIUCHARTS_PAGES_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - run: npm ci
+
+      - run: npm run export:web
+
+      # GitHub Pages' classic branch-based pipeline runs Jekyll by default,
+      # which silently skips any folder starting with "_" (Expo's _expo/).
+      - run: node -e "require('fs').writeFileSync('dist/.nojekyll','')"
+
+      - name: Publish to piucharts/piucharts.github.io
+        if: ${{ env.HAS_PAGES_TOKEN == 'true' }}
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PIUCHARTS_PAGES_TOKEN }}
+          external_repository: piucharts/piucharts.github.io
+          publish_branch: main
+          publish_dir: app/dist
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_message: "Deploy piu-charts@${{ github.sha }}"
+
+      - name: Skipped (secret not configured yet)
+        if: ${{ env.HAS_PAGES_TOKEN != 'true' }}
+        run: echo "PIUCHARTS_PAGES_TOKEN secret is not set — see README.md for one-time setup. Skipping deploy."

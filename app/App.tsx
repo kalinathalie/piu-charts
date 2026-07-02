@@ -4,6 +4,7 @@ import {
   FlatList,
   Image,
   Linking,
+  Platform,
   Pressable,
   ScrollView,
   SectionList,
@@ -11,6 +12,7 @@ import {
   StyleSheet,
   Text,
   TextInput,
+  useWindowDimensions,
   View,
 } from "react-native";
 import { SafeAreaProvider, useSafeAreaInsets } from "react-native-safe-area-context";
@@ -22,6 +24,11 @@ const data = rawData as AppData;
 const songById = new Map(data.songs.map((s) => [s.id, s]));
 
 const PHOENIX_VERSION = "2.12";
+// On the web build (GitHub Pages / any browser), the phone-shaped layout is
+// centered in a fixed-width column instead of stretching edge-to-edge across
+// a wide window. Real mobile browsers stay under this width, so they're
+// unaffected; the native Android app never triggers this (Platform.OS check).
+const MAX_CONTENT_WIDTH = 480;
 const VERSION_ORDER = ["1st", "Zero", "NX", "NXA", "Fiesta", "Fiesta2", "Prime", "Prime2", "XX", "Phoenix"];
 const MODE_LABEL: Record<string, string> = { Single: "Single", Double: "Double", CoOp: "Co-Op" };
 const MODE_ORDER = ["Single", "Double", "CoOp"];
@@ -117,6 +124,8 @@ export default function App() {
 
 function Main() {
   const insets = useSafeAreaInsets();
+  const { width } = useWindowDimensions();
+  const isWideWeb = Platform.OS === "web" && width > MAX_CONTENT_WIDTH;
   const [stack, setStack] = useState<Screen[]>([{ k: "home" }]);
   const cur = stack[stack.length - 1];
   const push = (s: Screen) => setStack((st) => [...st, s]);
@@ -136,26 +145,29 @@ function Main() {
   const title = screenTitle(cur);
 
   return (
-    <View
-      style={[
-        styles.safe,
-        {
-          paddingTop: insets.top,
-          paddingBottom: insets.bottom,
-          paddingLeft: insets.left,
-          paddingRight: insets.right,
-        },
-      ]}
-    >
-      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
-      {cur.k === "home" ? (
-        <Home onNavigate={push} bottom={insets.bottom} />
-      ) : (
-        <View style={styles.flex}>
-          <Header title={title} onBack={pop} />
-          <Body screen={cur} push={push} bottom={insets.bottom} />
-        </View>
-      )}
+    <View style={[styles.webBackdrop, isWideWeb && styles.webBackdropWide]}>
+      <View
+        style={[
+          styles.safe,
+          isWideWeb && styles.webCanvas,
+          {
+            paddingTop: insets.top,
+            paddingBottom: insets.bottom,
+            paddingLeft: insets.left,
+            paddingRight: insets.right,
+          },
+        ]}
+      >
+        <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
+        {cur.k === "home" ? (
+          <Home onNavigate={push} bottom={insets.bottom} />
+        ) : (
+          <View style={styles.flex}>
+            <Header title={title} onBack={pop} />
+            <Body screen={cur} push={push} bottom={insets.bottom} />
+          </View>
+        )}
+      </View>
     </View>
   );
 }
@@ -708,6 +720,20 @@ const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: "#0e0f14" },
   flex: { flex: 1 },
   pad: { padding: 16 },
+
+  // web: on a wide browser window, frame the phone-shaped layout as a
+  // centered column instead of stretching it edge-to-edge. Inert on native
+  // and on real mobile-browser widths (below MAX_CONTENT_WIDTH).
+  webBackdrop: { flex: 1 },
+  webBackdropWide: { backgroundColor: "#000000", alignItems: "center" },
+  webCanvas: {
+    width: "100%",
+    maxWidth: MAX_CONTENT_WIDTH,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 0 },
+    shadowOpacity: 0.6,
+    shadowRadius: 40,
+  },
 
   // home
   homePad: { padding: 16 },
