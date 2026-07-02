@@ -8,18 +8,32 @@
     "android": "expo run:android",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
+    "test": "jest",
     "export:web": "expo export -p web",
     "deploy:piucharts": "npm run export:web && node -e \"require('fs').writeFileSync('dist/.nojekyll','')\" && npx gh-pages -d dist -b main -t --repo https://github.com/piucharts/piucharts.github.io.git"
   },
   "dependencies": {
     "@expo/metro-runtime": "~56.0.15",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "@types/react": "~19.2.14",
     "expo": "^56.0.12",
+    "expo-camera": "~56.0.8",
+    "expo-clipboard": "~56.0.4",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.85.3",
+    "react-native-gesture-handler": "~2.31.1",
+    "react-native-qrcode-svg": "^6.3.21",
+    "react-native-reanimated": "4.3.1",
     "react-native-safe-area-context": "~5.7.0",
+    "react-native-svg": "15.15.4",
     "react-native-web": "^0.21.2",
+    "reanimated-color-picker": "^5.1.2",
     "typescript": "~6.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11"
   }
 }
